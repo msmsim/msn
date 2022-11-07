@@ -4,12 +4,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Contents
 
-1. [text](link)
-2. [text](link)
-3. [text](link)
-4. [text](link)
-5. [text](link)
-6. [text](link)
+1. [Contact](link)
+2. [Now](link)
+3. [Next](link)
+4. [Later](link)
+5. [Previously](link)
+6. [Colophon](link)
 
 ## Contact
 
