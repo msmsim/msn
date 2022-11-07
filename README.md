@@ -2,7 +2,7 @@
 A page
 
 <details>
-  <summary><h2>Section</h2></summary>
+  <summary><h3>Section</h3></summary>
     
   Text
 
