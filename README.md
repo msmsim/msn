@@ -6,14 +6,6 @@ My life right now involves (amongst other things): product management at a B2B s
 
 My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects (non-fiction and fiction), freelance editorial work, operative work at a technical fabrics factory, and a pandemic-induced pivot into tech.
 
-### Contents
-
-1. [Contact](link)
-2. [Now](link)
-3. [Next](link)
-4. [Later](link)
-5. [Previously](link)
-
 ##
 
 <details>
@@ -49,7 +41,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
     
   ####
   
- Some options for the near-future (>3 months and <2 years).
+  Some options for the near-future (>3 months and <2 years).
 
   - Switch motion studies into production/synthesis mode
   - Get back to fiction (traditional format or something hybrid/weirder)
@@ -65,7 +57,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
     
   ####
   
- Some possibilities for the far-future (>5 years).
+  Some possibilities for the far-future (>5 years).
 
   - Learn a non-native language
   - Learn to play an instrument
@@ -82,7 +74,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
     
   ####
   
- A collection of salient things from my past.
+  A collection of salient things from my past.
 
   - Status of the wholes (annual reviews; ()2021, ()2020, ()2019)
   - ()Applied Data Science specialisation (2/5 complete; paused)
