@@ -2,35 +2,7 @@
 A page
 
 <details>
-  <summary>**Section**</summary>
-    
-  Text
-
-</details>
-
-<details>
-  <summary>**Section**</summary>
-    
-  Text
-
-</details>
-
-<details>
-  <summary>**Section**</summary>
-    
-  Text
-
-</details>
-
-<details>
-  <summary>**Section**</summary>
-    
-  Text
-
-</details>
-
-<details>
-  <summary>**Section**</summary>
+  <summary><h2>Section</h2></summary>
     
   Text
 
