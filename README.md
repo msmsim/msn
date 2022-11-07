@@ -4,17 +4,17 @@ Hi, I'm Matt. My life right now involves (amongst other things): product managem
 
 My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects (non-fiction and fiction), freelance editorial work, operative work at a technical fabrics factory, and a pandemic-induced pivot into tech.
 
-The simplest way to reach me is email: _matt@thisdomain_. I use email predominantly for [correspondence](), instead of capture. I'm on Farcaster ([link]()) and Twitter ([link]()), too. I'm responsive ([link]()) by default and do my damndest to operate by [Crocker's Rules]().
+The simplest way to reach me is email: _matt@thisdomain_. I use email predominantly for [correspondence](), instead of capture. I'm on Farcaster ([link]()) and Twitter ([link]()), too. I'm responsive by default and do my damndest to operate by [Crocker's Rules]().
 
-## Now-Next-Later-Previously
+## Now-Next-Later-Done
 
 **Now**: A select view of what I'm currently up to.
 
 - Going deep into product management
-- Maintaining the ()Magnificent Seven, a weekly newsletter of notable artefacts
-- Studying ()governance—how collectives form, coordinate and evolve—with some ()Yaks
+- Maintaining the [Magnificent Seven](), a weekly newsletter of notable artefacts
+- Studying [governance]()—how collectives form, coordinate and evolve—with some [Yaks]()
 - Researching motion-based approaches to computing and intelligence
-- Trying to write more (()at Swell and Cut) and post more (()at Farcaster)
+- Trying to write more (at [Swell and Cut]()) and post more (at [Farcaster]())
 
 **Next**: Some options for the near-future (>3 months and <2 years).
 
@@ -31,22 +31,22 @@ The simplest way to reach me is email: _matt@thisdomain_. I use email predominan
 - Complete a long-haul bikepacking expedition
 - Start something (either modest or unreasonably ambitious in character)
   
-**Previously**: A collection of salient things from my past.
+**Done**: A collection of salient things from my past.
 
-- Status of the wholes (annual reviews; ()2021, ()2020, ()2019)
-- ()Applied Data Science specialisation (2/5 complete; paused)
-- ()(i)Riven (self-published novella)
-- Entry-level ()Scrum.org certs (PSM I, PSPO I)
-- ()Fundamentals of Computing (a computing specialisation)
-- ()Elements and Components of Product Management (PM exploration)
-- ()YakTalk (the Yak Collective's newsletter)
-- ()(i)Ss (self-published short stories)
-- ()(i)Barker (self-published novel)
-- ()Near-Deathness (a Ribbonfarm essay)
-- ()Freelance editorial work
-- ()(i)Disconnected (self-published blog post collection)
-- Six Paris-Review-style ()interviews
-- ()1,300+ blog posts
+- Status of the wholes (annual reviews; [2021](), [2020](), [2019]())
+- [Applied Data Science]() specialisation (2/5 complete; paused)
+- [*Riven*]() (self-published novella)
+- Entry-level [Scrum.org certs]() (PSM I, PSPO I)
+- [Fundamentals of Computing]() (a computing specialisation)
+- [Elements and Components of Product Management]() (PM exploration)
+- [YakTalk]() (the Yak Collective's newsletter)
+- [*Ss*]() (self-published short stories)
+- [*Barker*]() (self-published novel)
+- [Near-Deathness]() (a Ribbonfarm essay)
+- Freelance [editorial work]()
+- [*Disconnected*]() (self-published blog post collection)
+- Six Paris-Review-style [interviews]()
+- [1,300+]() blog posts
 
 ## 
 
