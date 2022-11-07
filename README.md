@@ -48,7 +48,7 @@ The simplest way to reach me is email: _matt@thisdomain_. I use email predominan
 - Six Paris-Review-style [interviews]()
 - [1,300+]() blog posts
 
-## 
+## Colophon
 
 Built with [Github Pages]() (bare) and [Markdown](). Inspired by [Hyperlinked Text](), [From My to Me]() and [Start with words]().
 
