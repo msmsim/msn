@@ -14,7 +14,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
 4. [Later](link)
 5. [Previously](link)
 
----
+##
 
 <details>
   <summary>Contact</summary>
@@ -25,7 +25,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
 
 </details>
 
----
+##
 
 <details>
   <summary>Now</summary>
@@ -42,7 +42,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
 
 </details>
 
----
+##
 
 <details>
   <summary>Next</summary>
