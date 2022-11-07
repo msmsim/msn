@@ -2,7 +2,7 @@
 A page
 
 <details>
-  <summary><h4>Contact</h4></summary>
+  <summary><h3>Contact</h3></summary>
     
   Text
 
