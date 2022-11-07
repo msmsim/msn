@@ -14,6 +14,15 @@ My past life includes (amongst other things): multiple sports as a child and tee
 4. [Later](link)
 5. [Previously](link)
 
+<details>
+  <summary>Contact</summary>
+  
+  ### Heading
+  
+  The simplest way to reach me is email: (i)matt@thisdomain. I use email predominantly for ()correspondence, instead of capture. I'm on Farcaster () and Twitter (), too. I'm responsive ()by default and do my damndest to operate by ()Crocker's Rules.
+
+</details>
+
 ## Contact
 
 The simplest way to reach me is email: (i)matt@thisdomain. I use email predominantly for ()correspondence, instead of capture. I'm on Farcaster () and Twitter (), too. I'm responsive ()by default and do my damndest to operate by ()Crocker's Rules.
