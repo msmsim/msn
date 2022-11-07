@@ -9,35 +9,35 @@ A page
 </details>
 
 <details>
-  <summary><h2>Now</h2></summary>
+  <summary><h3>Now</h3></summary>
     
   Text
 
 </details>
 
 <details>
-  <summary><h2>Next</h2></summary>
+  <summary><h3>Next</h3></summary>
     
   Text
 
 </details>
 
 <details>
-  <summary><h2>Later</h2></summary>
+  <summary><h3>Later</h3></summary>
     
   Text
 
 </details>
 
 <details>
-  <summary><h2>Previously</h2></summary>
+  <summary><h3>Previously</h3></summary>
     
   Text
 
 </details>
 
 <details>
-  <summary><h2>Colophon</h2></summary>
+  <summary><h3>Colophon</h3></summary>
     
   Text
 
