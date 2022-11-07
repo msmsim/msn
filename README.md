@@ -2,46 +2,36 @@
 A page
 
 <details>
-  <summary>Section</summary>
-  
-  ## Heading
-  
+  <summary>**Section**</summary>
+    
   Text
 
 </details>
 
 <details>
-  <summary>Section</summary>
-  
-  ## Heading
-  
+  <summary>**Section**</summary>
+    
   Text
 
 </details>
 
 <details>
-  <summary>Section</summary>
-  
-  ## Heading
-  
+  <summary>**Section**</summary>
+    
   Text
 
 </details>
 
 <details>
-  <summary>Section</summary>
-  
-  ## Heading
-  
+  <summary>**Section**</summary>
+    
   Text
 
 </details>
 
 <details>
-  <summary>Section</summary>
-  
-  ## Heading
-  
+  <summary>**Section**</summary>
+    
   Text
 
 </details>
