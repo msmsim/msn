@@ -2,12 +2,46 @@
 A page
 
 <details>
-  <summary>Click me</summary>
+  <summary>Section</summary>
   
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+  ## Heading
+  
+  Text
+
+</details>
+
+<details>
+  <summary>Section</summary>
+  
+  ## Heading
+  
+  Text
+
+</details>
+
+<details>
+  <summary>Section</summary>
+  
+  ## Heading
+  
+  Text
+
+</details>
+
+<details>
+  <summary>Section</summary>
+  
+  ## Heading
+  
+  Text
+
+</details>
+
+<details>
+  <summary>Section</summary>
+  
+  ## Heading
+  
+  Text
 
 </details>
