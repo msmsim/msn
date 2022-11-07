@@ -58,45 +58,48 @@ My past life includes (amongst other things): multiple sports as a child and tee
 
 </details>
 
+##
+  
+<details>
+  <summary>Later</summary>
+    
+  ####
+  
+ Some possibilities for the far-future (>5 years).
 
+  - Learn a non-native language
+  - Learn to play an instrument
+  - Experiment with indie consulting
+  - Complete a long-haul bikepacking expedition
+  - Start something (either modest or unreasonably ambitious in character)
 
-## Next
+</details>
 
-Some options for the near-future (>3 months and <2 years).
+##
+  
+<details>
+  <summary>Previously</summary>
+    
+  ####
+  
+ A collection of salient things from my past.
 
-- Switch motion studies into production/synthesis mode
-- Get back to fiction (traditional format or something hybrid/weirder)
-- Tinker with low-level tech
-- Collaborate on a project within the Yak Collective
+  - Status of the wholes (annual reviews; ()2021, ()2020, ()2019)
+  - ()Applied Data Science specialisation (2/5 complete; paused)
+  - ()(i)Riven (self-published novella)
+  - Entry-level ()Scrum.org certs (PSM I, PSPO I)
+  - ()Fundamentals of Computing (a computing specialisation)
+  - ()Elements and Components of Product Management (PM exploration)
+  - ()YakTalk (the Yak Collective's newsletter)
+  - ()(i)Ss (self-published short stories)
+  - ()(i)Barker (self-published novel)
+  - ()Near-Deathness (a Ribbonfarm essay)
+  - ()Freelance editorial work
+  - ()(i)Disconnected (self-published blog post collection)
+  - Six Paris-Review-style ()interviews
+  - ()1,300+ blog posts
 
-## Later
-
-Some possibilities for the far-future (>5 years).
-
-- Learn a non-native language
-- Learn to play an instrument
-- Experiment with indie consulting
-- Complete a long-haul bikepacking expedition
-- Start something (either modest or unreasonably ambitious in character)
-
-## Previously
-
-A collection of salient things from my past.
-
-- Status of the wholes (annual reviews; ()2021, ()2020, ()2019)
-- ()Applied Data Science specialisation (2/5 complete; paused)
-- ()(i)Riven (self-published novella)
-- Entry-level ()Scrum.org certs (PSM I, PSPO I)
-- ()Fundamentals of Computing (a computing specialisation)
-- ()Elements and Components of Product Management (PM exploration)
-- ()YakTalk (the Yak Collective's newsletter)
-- ()(i)Ss (self-published short stories)
-- ()(i)Barker (self-published novel)
-- ()Near-Deathness (a Ribbonfarm essay)
-- ()Freelance editorial work
-- ()(i)Disconnected (self-published blog post collection)
-- Six Paris-Review-style ()interviews
-- ()1,300+ blog posts
+</details>
 
 ##
 
