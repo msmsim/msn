@@ -1,10 +1,10 @@
 # Matthew Sweet
 
-Hi, I'm Matt. My life right now involves (amongst other things): product management at a B2B startup, reading a lot, writing ()infrequently, maintaining ()Mag7, researching ()motion-based approaches to computing and intelligence, thinking about ()governance with other ()Yaks, and ()Farcasting.
+Hi, I'm Matt. My life right now involves (amongst other things): product management at a B2B startup, reading a lot, writing [infrequently](), maintaining [Mag7](), researching [motion-based approaches]() to computing and intelligence, thinking about [governance]() with other [Yaks](), and [Farcasting]().
 
 My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects (non-fiction and fiction), freelance editorial work, operative work at a technical fabrics factory, and a pandemic-induced pivot into tech.
 
-The simplest way to reach me is email: (i)matt@thisdomain. I use email predominantly for ()correspondence, instead of capture. I'm on Farcaster () and Twitter (), too. I'm responsive ()by default and do my damndest to operate by ()Crocker's Rules.
+The simplest way to reach me is email: _matt@thisdomain_. I use email predominantly for [correspondence](), instead of capture. I'm on Farcaster ([link]()) and Twitter ([link]()), too. I'm responsive ([link]()) by default and do my damndest to operate by [Crocker's Rules]().
 
 ## Now-Next-Later-Previously
 
@@ -50,6 +50,6 @@ The simplest way to reach me is email: (i)matt@thisdomain. I use email predomina
 
 ## 
 
-Built with ()Github Pages (bare) and ()Markdown. Inspired by ()Hyperlinked Text, ()From My to Me and ()Start with words.
+Built with [Github Pages]() (bare) and [Markdown](). Inspired by [Hyperlinked Text](), [From My to Me]() and [Start with words]().
 
 Last updated 00th Month 0000.
