@@ -13,7 +13,6 @@ My past life includes (amongst other things): multiple sports as a child and tee
 3. [Next](link)
 4. [Later](link)
 5. [Previously](link)
-6. [Colophon](link)
 
 ## Contact
 
@@ -67,7 +66,7 @@ A collection of salient things from my past.
 - Six Paris-Review-style ()interviews
 - ()1,300+ blog posts
 
-## Colophon
+##
 
 - Build: ()Github Pages (bare), ()Markdown, ()GoatCounter
 - Inspiration: ()Hyperlinked Text, ()From My to Me, ()Start with words
