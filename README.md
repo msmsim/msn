@@ -68,6 +68,6 @@ A collection of salient things from my past.
 
 ##
 
-- Build: ()Github Pages (bare), ()Markdown, ()GoatCounter
-- Inspiration: ()Hyperlinked Text, ()From My to Me, ()Start with words
-- Last update: 00th Month 0000
+Build: ()Github Pages (bare), ()Markdown, ()GoatCounter
+Inspiration: ()Hyperlinked Text, ()From My to Me, ()Start with words
+Last update: 00th Month 0000
