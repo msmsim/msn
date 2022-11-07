@@ -26,7 +26,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
 <details>
   <summary>Now</summary>
     
-  ##
+  ####
   
   A select view of what I'm currently up to.
 
@@ -38,17 +38,21 @@ My past life includes (amongst other things): multiple sports as a child and tee
 
 </details>
 
+<details>
+  <summary>Next</summary>
+    
+  ####
+  
+ Some options for the near-future (>3 months and <2 years).
+
+  - Switch motion studies into production/synthesis mode
+  - Get back to fiction (traditional format or something hybrid/weirder)
+  - Tinker with low-level tech
+  - Collaborate on a project within the Yak Collective
+
+</details>
 
 
-## Now
-
-A select view of what I'm currently up to.
-
-- Going deep into product management
-- Maintaining the ()Magnificent Seven, a weekly newsletter of notable artefacts
-- Studying ()governance—how collectives form, coordinate and evolve—with some ()Yaks
-- Researching motion-based approaches to computing and intelligence
-- Trying to write more (()at Swell and Cut) and post more (()at Farcaster)
 
 ## Next
 
