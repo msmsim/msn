@@ -23,9 +23,22 @@ My past life includes (amongst other things): multiple sports as a child and tee
 
 </details>
 
-## Contact
+<details>
+  <summary>Now</summary>
+    
+  ##
+  
+  A select view of what I'm currently up to.
 
-The simplest way to reach me is email: (i)matt@thisdomain. I use email predominantly for ()correspondence, instead of capture. I'm on Farcaster () and Twitter (), too. I'm responsive ()by default and do my damndest to operate by ()Crocker's Rules.
+  - Going deep into product management
+  - Maintaining the ()Magnificent Seven, a weekly newsletter of notable artefacts
+  - Studying ()governance—how collectives form, coordinate and evolve—with some ()Yaks
+  - Researching motion-based approaches to computing and intelligence
+  - Trying to write more (()at Swell and Cut) and post more (()at Farcaster)
+
+</details>
+
+
 
 ## Now
 
