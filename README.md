@@ -1,53 +1,49 @@
-Hi, I'm Matt. My life right now involves (amongst other things): product management at a B2B startup, reading a lot, writing [infrequently](), maintaining [Mag7](), researching [motion-based approaches]() to computing and intelligence, thinking about [governance]() with other [Yaks](), and [Farcasting]().
+## About
 
-My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects (non-fiction and fiction), freelance editorial work, operative work at a technical fabrics factory, and a pandemic-induced pivot into tech.
+Hi. I'm Matt. My life right now involves (amongst other things): product management, reading a lot, writing infrequently, maintaining my newsletter, researching motion-based approaches to computing and intelligence, and contributing to the Yak Collective's governance study group.
 
-The simplest way to reach me is email: _matt@thisdomain_. I use email predominantly for [correspondence](), instead of capture. I'm on Farcaster ([link]()) and Twitter ([link]()), too. I'm responsive by default and do my damndest to operate by [Crocker's Rules]().
+My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects (non-fiction and fiction) and high-volume blogging, freelance editorial services, operative work at a factory, and a pandemic-induced pivot into tech.
 
-## Now-Next-Later-Done
+## Contact
 
-**Now**: A select view of what I'm currently up to.
+The simplest way to reach me is email: *matt@thisdomain*. I use email predominantly for correspondence, instead of capture. I'm on Farcaster ([fcast.me/msms](https://fcast.me/msms)), and Twitter ([@Matthew_Sweet](https://twitter.com/Matthew_Sweet)), too. I'm responsive by default and do my damndest to operate by [Crocker's Rules](http://sl4.org/crocker.html).
 
-- Going deep into product management
-- Maintaining the [Magnificent Seven](), a weekly newsletter of notable artefacts
-- Studying [governance]()—how collectives form, coordinate and evolve—with some [Yaks]()
-- Researching motion-based approaches to computing and intelligence
-- Trying to write more (at [Swell and Cut]()) and post more (at [Farcaster]())
+## Now
 
-**Next**: Some options for the near-future (>3 months and <2 years).
+A select view of what I'm currently up to.
 
-- Switch motion studies into production/synthesis mode
-- Get back to fiction (traditional format or something hybrid/weirder)
-- Tinker with low-level tech
-- Collaborate on a project within the Yak Collective
+- Going [deep(er)](https://swellandcut.com/useful-fictions/) into product management
+- Maintaining the [Magnificent Seven](https://buttondown.email/mag7), a weekly newsletter of notable artefacts
+- Researching [motion-based approaches](https://en.wikipedia.org/wiki/Thomas_Nail) to computing and intelligence
+- Studying [governance](https://www.yakcollective.org/projects/yak-online-governance-primer)—how collectives form, coordinate and evolve—with some [Yaks](https://www.yakcollective.org/index.html)
+- Writing occasionally (over at [Swell and Cut](https://swellandcut.com)) and [Farcasting](https://www.farcaster.xyz)
 
-**Later**: Some possibilities for the far-future (>5 years).
+## Previously
 
-- Learn a non-native language
-- Learn to play an instrument
-- Experiment with indie consulting
-- Complete a long-haul bikepacking expedition
-- Start something (either modest or unreasonably ambitious in character)
-  
-**Done**: A collection of salient things from my past.
+A collection of salient things from my past.
 
-- Status of the wholes (annual reviews; [2021](), [2020](), [2019]())
-- [Applied Data Science]() specialisation (2/5 complete; paused)
-- [*Riven*]() (self-published novella)
-- Entry-level [Scrum.org certs]() (PSM I, PSPO I)
-- [Fundamentals of Computing]() (a computing specialisation)
-- [Elements and Components of Product Management]() (PM exploration)
-- [YakTalk]() (the Yak Collective's newsletter)
-- [*Ss*]() (self-published short stories)
-- [*Barker*]() (self-published novel)
-- [Near-Deathness]() (a Ribbonfarm essay)
-- Freelance [editorial work]()
-- [*Disconnected*]() (self-published blog post collection)
-- Six Paris-Review-style [interviews]()
-- [1,300+]() blog posts
+- Status of the wholes (annual reviews; [2021](https://swellandcut.com/sotw-2021), [2020](https://swellandcut.com/sotw2020), [2019](https://swellandcut.com/2019/01/29/the-status-of-the-wholes/))
+- [Applied Data Science](https://www.coursera.org/specializations/data-science-python) specialisation (2/5 complete; paused)
+- [*Riven*](https://swellandcut.com/riven) (self-published novella)
+- Learn Enough [Developer Fundamentals](https://www.learnenough.com/courses) (mini CLI, GIT, IDE courses)
+- [Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) (a computing specialisation)
+- Entry-level [Scrum.org certs](https://www.scrum.org/professional-scrum-certifications) (PSM I, PSPO I)
+- [Elements and Components of Product Management](https://swellandcut.com/ecpm) (PM exploration)
+- [YakTalk](https://yakcollective.substack.com/) (the Yak Collective's newsletter)
+- [*Ss*](https://swellandcut.com/ss) (self-published short stories)
+- [*Barker*](https://swellandcut.com/barker) (self-published novel)
+- Freelance [editorial work](https://swellandcut.com/editorial)
+- [Near-Deathness](https://www.ribbonfarm.com/2018/06/21/near-deathness/) (a Ribbonfarm essay)
+- [*Disconnected*](https://swellandcut.com/disconnected) (self-published blog post collection)
+- Six Paris-Review-style [interviews](https://swellandcut.com/interviews)
+- [1,300+ blog posts](https://swellandcut.com/archive)
 
 ## Colophon
 
-Built with [Github Pages]() (bare) and [Markdown](). Inspired by [Hyperlinked Text](), [From My to Me]() and [Start with words]().
+Build:
 
-Last updated 00th Month 0000.
+Inspiration:
+
+Design:
+
+Last updated:
