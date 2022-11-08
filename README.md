@@ -1,5 +1,3 @@
-## About
-
 Hi. I'm Matt. My life right now involves (amongst other things): product management, reading a lot, writing infrequently, maintaining my newsletter, researching motion-based approaches to computing and intelligence, and contributing to the Yak Collective's governance study group.
 
 My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects (non-fiction and fiction) and high-volume blogging, freelance editorial services, operative work at a factory, and a pandemic-induced pivot into tech.
