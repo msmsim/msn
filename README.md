@@ -1,4 +1,4 @@
-### **The hub page for Matthew Sweet; reader, writer, product manager (amongst other things).
+### This is the hub page for Matthew Sweet; reader, writer, product manager (amongst other things).
 
 ---
 
