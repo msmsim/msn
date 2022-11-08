@@ -36,7 +36,7 @@ A collection of salient things from my past.
 - Six Paris-Review-style [interviews](https://swellandcut.com/interviews)
 - [1,300+ blog posts](https://swellandcut.com/archive)
 
-## Colophon
+## 
 
 Built with GitHub Pages ([Primer](https://github.com/pages-themes/primer) theme). Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html), [From My to Me](https://interfacecritique.net/book/olia-lialina-from-my-to-me/) and [Start with words](https://justinjackson.ca/words.html).
 
