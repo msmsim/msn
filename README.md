@@ -4,7 +4,7 @@ My past life includes (amongst other things): multiple sports as a child and tee
 
 ## Contact
 
-The simplest way to reach me is email: *matt@thisdomain*. I use email predominantly for correspondence, instead of capture. I'm on Farcaster ([fcast.me/msms](https://fcast.me/msms)) and Twitter ([@Matthew_Sweet](https://twitter.com/Matthew_Sweet)), too. I'm responsive by default and do my damndest to operate by [Crocker's Rules](http://sl4.org/crocker.html).
+The simplest way to reach me is email: *matt@thisdomain*. I use email predominantly for correspondence, instead of capture. I'm on Farcaster ([fcast.me/msms](https://fcast.me/msms)) and Twitter ([@Matthew_Sweet](https://twitter.com/Matthew_Sweet)), too. I'm responsive by default and operate by [Crocker's Rules](http://sl4.org/crocker.html).
 
 ## Now
 
