@@ -38,10 +38,6 @@ A collection of salient things from my past.
 
 ## Colophon
 
-Build:
+Built with GitHub Pages ([Primer](https://github.com/pages-themes/primer) theme). Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html), [From My to Me](https://interfacecritique.net/book/olia-lialina-from-my-to-me/) and [Start with words](https://justinjackson.ca/words.html).
 
-Inspiration:
-
-Design:
-
-Last updated:
+Last updated 00th Month Year.
