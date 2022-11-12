@@ -35,3 +35,5 @@ A collection of salient things from my past.
 - [*Disconnected*](https://swellandcut.com/disconnected) (self-published blog post collection)
 - Six Paris-Review-style [interviews](https://swellandcut.com/interviews)
 - [1,300+ blog posts](https://swellandcut.com/archive)
+
+<script src="navbar.js"></script>
