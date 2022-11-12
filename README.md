@@ -10,7 +10,7 @@ A selection of what I'm up to now:
 - [The Magnificent Seven](https://buttondown.email/mag7): producing a weekly newsletter of notable artefacts
 - [YC's Governance Study Group](https://www.yakcollective.org/projects/yak-online-governance-primer): exploring the dynamics of collectives
 - [Motion-based approaches to computing and intelligence](https://en.wikipedia.org/wiki/Thomas_Nail): an indie research project
-- [Swell and Cut](https://swellandcut.com)): blogging about interesting questions and answers
+- [Swell and Cut](https://swellandcut.com): blogging about interesting questions and answers
 
 ## Previously
 
