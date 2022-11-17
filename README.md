@@ -60,6 +60,7 @@ On complex systems:
 - [_Thinking in Systems_](https://www.chelseagreen.com/product/thinking-in-systems/), Donella Meadows
 - [_Incerto_](https://www.fooledbyrandomness.com), Nassim Nicholas Taleb
 - [_A Treatise on Systems_](http://markburgess.org/treatise.html), Mark Burgess
+- [_The Mushroom at the End of the World_](https://press.princeton.edu/books/paperback/9780691220550/the-mushroom-at-the-end-of-the-world), Anna Lowenhaupt Tsing
 
 On product management and design:
 
