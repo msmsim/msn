@@ -21,7 +21,7 @@ A selection of what I'm up to now:
 - [Product management](https://swellandcut.com/useful-fictions/): practicing discovery, delivery and integration
 - [The Magnificent Seven](https://buttondown.email/mag7): producing a weekly newsletter of notable artefacts
 - [YC's Governance Study Group](https://www.yakcollective.org/projects/yak-online-governance-primer): exploring the dynamics of collectives
-- [Motion-based approaches to computing and intelligence](https://en.wikipedia.org/wiki/Thomas_Nail): an indie research project
+- [Motion-based approaches to computing and intelligence](https://aeon.co/ideas/is-nature-continuous-or-discrete-how-the-atomist-error-was-born): an indie research project
 - [Swell and Cut](https://swellandcut.com): blogging about interesting questions and answers
 
 ## Previously
