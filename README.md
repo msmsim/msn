@@ -1,10 +1,6 @@
-**Matthew Sweet**: writer turned product manager, self-taught programmer, interested person.
+Hi, I'm Matt. A writer turned product manager; a self-taught programmer; an interested person.
 
-**Contents:** [About](https://www.msweet.net/#about) | [Contact](https://www.msweet.net/#contact) | [Now](https://www.msweet.net/#now) | [Previously](https://www.msweet.net/#previously) | [Seminal Reads](https://www.msweet.net/#seminal-reads)
-
-## About
-
-Hi, I'm Matt. My life right now involves (amongst other things) product management, producing a weekly newsletter, and thinking about the intersection of complex systems, computing and communication. In past lives I was (amongst other things) a sporty kid, a mediocre student, a waiter and bartender, a movement coach, a security response team member, an independent writer, a freelance editor, and a factory worker.
+My life right now involves (amongst other things) product management, producing a weekly newsletter, and thinking about the intersection of complex systems, computing and communication. In past lives I was (amongst other things) a sporty kid, a mediocre student, a waiter and bartender, a movement coach, a security response team member, an independent writer, a freelance editor, and a factory worker.
 
 ## Contact
 
