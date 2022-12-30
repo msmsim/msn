@@ -1,48 +1,45 @@
-Hi. I'm Matt. My life right now involves (amongst other things): product management, reading, writing, producing a newsletter, researching motion-based approaches to computing and intelligence, and contributing to a governance study group.
+**Matthew Sweet**: writer turned product manager, self-taught programmer, interested person.
 
-My past life includes (amongst other things): multiple sports as a child and teenager, nope-ing out of formal higher education, itinerant restaurant and bar employment, movement coaching, stints in security response teams at summer events and festivals, independent writing projects and high-volume blogging, freelance editorial services, factory work, and a pandemic-enabled pivot into tech.
+**Contents:** [About](https://www.msweet.net/#about) | [Contact](https://www.msweet.net/#contact) | [Now](https://www.msweet.net/#now) | [Previously](https://www.msweet.net/#previously) | [Seminal Reads](https://www.msweet.net/#seminal-reads)
 
-**Contents:**
+## About
 
-1. [Contact](https://www.msweet.net/#contact)
-2. [Now](https://www.msweet.net/#now)
-3. [Previously](https://www.msweet.net/#previously)
-4. [Seminal Reads](https://www.msweet.net/#seminal-reads)
-5. [Colophon](https://www.msweet.net/#seminal-reads)
+Hi, I'm Matt. My life right now involves (amongst other things) product management, producing a weekly newsletter, and thinking about the intersection of complex systems, computing and communication. In past lives I was (amongst other things) a sporty kid, a mediocre student, a waiter and bartender, a movement coach, a security response team member, an independent writer, a freelance editor, and a factory worker.
 
 ## Contact
 
-The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I'm on Farcaster ([fcast.me/msms](https://fcast.me/msms)) and Twitter ([@Matthew_Sweet](https://twitter.com/Matthew_Sweet)), too. I'm responsive by default and I operate by [Crocker's Rules](http://sl4.org/crocker.html).
+The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m on [Farcaster](https://www.farcaster.xyz) (@msms) and [Twitter](https://twitter.com/Matthew_Sweet) (@Matthew_Sweet), too. I’m responsive by default and I operate by [Crocker’s Rules](http://sl4.org/crocker.html). Some reasons to contact me: to talk about something _I've_ read, wrote, built or thought about; to talk about something _you've_ read, wrote, built or thought about; to discuss problems or opportunities at the intersection of complex systems, computing and communication; to say hi.
+
 
 ## Now
 
-A selection of what I'm up to now:
+Right now, I am:
 
-- [Product management](https://swellandcut.com/useful-fictions/): practicing discovery, delivery and integration
-- [The Magnificent Seven](https://buttondown.email/mag7): producing a weekly newsletter of notable artefacts
-- [YC's Governance Study Group](https://www.yakcollective.org/projects/yak-online-governance-primer): exploring the dynamics of collectives
-- [Motion-based approaches to computing and intelligence](https://aeon.co/ideas/is-nature-continuous-or-discrete-how-the-atomist-error-was-born): an indie research project
-- [Swell and Cut](https://swellandcut.com): blogging about interesting questions and answers
+- Doing [product management](https://swellandcut.com/useful-fictions/)
+- Maintaining [The Magnificent Seven](https://buttondown.email/mag7)
+- Hanging out at [The Yak Collective](https://www.yakcollective.org/about)
+- Researching [motion-based approaches to computing and intelligence](https://aeon.co/ideas/is-nature-continuous-or-discrete-how-the-atomist-error-was-born)
+- Occassionally blogging at [Swell and Cut](https://www.swellandcut.com)
 
 ## Previously
 
-A selection of salient things from my past:
+Previously, I have:
 
-- Status of the wholes (annual reviews; [2021](https://swellandcut.com/sotw-2021), [2020](https://swellandcut.com/sotw2020), [2019](https://swellandcut.com/2019/01/29/the-status-of-the-wholes/))
-- [Applied Data Science](https://www.coursera.org/specializations/data-science-python) specialisation (2/5 complete; paused)
-- [_Riven_](https://swellandcut.com/riven) (self-published novella)
-- Learn Enough [Developer Fundamentals](https://www.learnenough.com/courses) (mini CLI, IDE and GIT courses)
-- [Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) (a computing specialisation)
-- Entry-level [Scrum.org certs](https://www.scrum.org/professional-scrum-certifications) (PSM I, PSPO I)
-- [Elements and Components of Product Management](https://swellandcut.com/ecpm) (PM exploration)
-- [YakTalk](https://yakcollective.substack.com/) (the Yak Collective's newsletter)
-- [_Ss_](https://swellandcut.com/ss) (self-published short stories)
-- [_Barker_](https://swellandcut.com/barker) (self-published novel)
-- Freelance [editorial work](https://swellandcut.com/editorial)
-- [Near-Deathness](https://www.ribbonfarm.com/2018/06/21/near-deathness/) (a Ribbonfarm essay)
-- [_Disconnected_](https://swellandcut.com/disconnected) (self-published blog post collection)
-- Six Paris-Review-style [interviews](https://swellandcut.com/interviews)
-- [1,300+ blog posts](https://swellandcut.com/archive)
+- Completed in-depth annual reviews ([2021](https://swellandcut.com/sotw-2021), [2020](https://swellandcut.com/sotw2020), [2019](https://swellandcut.com/2019/01/29/the-status-of-the-wholes/))
+- Learned a little about [applied data science](https://www.coursera.org/specializations/data-science-python)
+- Self-published [_Riven_](https://swellandcut.com/riven), a novella about a man who goes into the woods
+- Learned a little about [CLIs, IDEs and Git](https://www.learnenough.com/courses)
+- Completed an intensive, Python-focused [computing specialisation](https://www.coursera.org/specializations/computer-fundamentals)
+- Completed entry-level [Scrum.org certs](https://www.scrum.org/professional-scrum-certifications) (PSM I, PSPO I)
+- Explored the [elements and components of product management](https://swellandcut.com/ecpm)
+- Contributed to the Yak Collective's [newsletter](https://yakcollective.substack.com/)
+- Self-published [_Ss_](https://swellandcut.com/ss), a multi-genre short story collection
+- Self-published [_Barker_](https://swellandcut.com/barker), a novel about alt-education and the culture wars
+- Done some freelance [editorial work](https://swellandcut.com/editorial)
+- Wrote [Near-Deathness](https://www.ribbonfarm.com/2018/06/21/near-deathness/) (and one other piece) for Ribbonfarm
+- Self-published [_Disconnected_](https://swellandcut.com/disconnected), a collection of blog posts
+- Produced six long-form, Paris Review style [interviews](https://swellandcut.com/interviews)
+- Published [1,300+ blog posts](https://swellandcut.com/archive)
 
 ## Seminal Reads
 
@@ -99,4 +96,4 @@ On human nature:
 
 ## Colophon
 
-Built with [GitHub Pages](https://pages.github.com); inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html) and [Start with words](https://justinjackson.ca/words.html); last updated mid November 2022.
+Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html) and [Start with words](https://justinjackson.ca/words.html); last updated late December 2022.
