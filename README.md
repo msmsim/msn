@@ -4,8 +4,7 @@ My life right now involves (amongst other things) product management, producing 
 
 ## Contact
 
-The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m on [Farcaster](https://www.farcaster.xyz) (@msms) and [Twitter](https://twitter.com/Matthew_Sweet) (@Matthew_Sweet), too. I’m responsive by default and I operate by [Crocker’s Rules](http://sl4.org/crocker.html). Some reasons to contact me: to talk about something _I've_ read, wrote, built or thought about; to talk about something _you've_ read, wrote, built or thought about; to discuss problems or opportunities at the intersection of complex systems, computing and communication; to say hi.
-
+The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m on [Farcaster](https://www.farcaster.xyz) (@msms) and [Twitter](https://twitter.com/Matthew_Sweet) (@Matthew_Sweet), too. I’m responsive by default and I operate by [Crocker’s Rules](http://sl4.org/crocker.html).
 
 ## Now
 
@@ -41,7 +40,7 @@ Previously, I have:
 
 A loosely categorised selection of impactful non-fiction books from recent years.
 
-On complex systems:
+### On complex systems:
 
 - Thomas Nail's "kinetic case studies" of politics, ontology, aesthetics, science and nature:
     - Politics: [_Figure of the Migrant_](https://www.sup.org/books/title/?id=23425) and [_Theory of the Border_](https://global.oup.com/academic/product/theory-of-the-border-9780190618650)
@@ -55,7 +54,7 @@ On complex systems:
 - [_A Treatise on Systems_](http://markburgess.org/treatise.html), Mark Burgess
 - [_The Mushroom at the End of the World_](https://press.princeton.edu/books/paperback/9780691220550/the-mushroom-at-the-end-of-the-world), Anna Lowenhaupt Tsing
 
-On product management and design:
+### On product management and design:
 
 - [_Team Topologies_](https://teamtopologies.com/book), Matthew Skelton, Manuel Pais
 - [_Scrum Guide_](https://scrumguides.org/scrum-guide.html), Ken Schwaber, Jeff Sutherland
@@ -64,7 +63,7 @@ On product management and design:
 - [_The Principles of Product Development Flow_](https://www.amazon.co.uk/Principles-Product-Development-Flow-Generation/dp/1935401009), Donald G. Reinertsen
 - [_Helvetica / Objectified / Urbanized_](https://www.hustwit.com/interviewsbook), Gary Hustwit
 
-On technology and computing:
+### On technology and computing:
 
 - [_Breaking Smart: Season One_](https://www.amazon.com/dp/B079Q77446), [_Breaking Smart Archives_](https://www.amazon.com/Breaking-Smart-Archives-Selected-Newsletters-ebook/dp/B088K7N3LD), [_Ribbonfarm Roughs_](https://www.amazon.com/gp/product/B078J691KZ), Venkatesh Rao
 - [_Brave New War_](https://www.amazon.com/dp/0471780790?tag=ref=nosim/globalguerril-20), John Robb
@@ -73,7 +72,7 @@ On technology and computing:
 - [_Code_](https://www.codehiddenlanguage.com), Charles Petzold
 - [_Python for Data Analysis_](https://www.oreilly.com/library/view/python-for-data/9781449323592/), Wes McKiney
 
-On creativity and learning:
+### On creativity and learning:
 
 - [_The Art of Learning_](https://www.joshwaitzkin.com/the-art-of-learning), Josh Waitzkin
 - [_Daily Rituals_](https://www.masoncurrey.com/daily-rituals), Mason Currey
@@ -82,7 +81,7 @@ On creativity and learning:
 - [_Werner Herzog: A Guide for the Perplexed_](https://us.macmillan.com/books/9780571259779/wernerherzogaguidefortheperplexed), Paul Cronin
 - [_Embodied Cognition_](https://www.routledge.com/Embodied-Cognition/Shapiro/p/book/9781138746992), Lawrence Shapiro
 
-On human nature:
+### On human nature:
 
 - [_The Complete Works of Primo Levi_](https://www.penguin.co.uk/books/106486/the-complete-works-of-primo-levi-by-primo-levi/9780713999563), Ann Goldstein
 - [_Rene Girard's Mimetic Theory_](https://mimetictheory.com/books/rene-girards-mimetic-theory/) by Wolfgang Palaver and [_Evolution of Desire_](https://msupress.org/9781611862836/evolution-of-desire/) by Cynthia Haven
