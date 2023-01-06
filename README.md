@@ -91,4 +91,4 @@ A loosely categorised selection of impactful non-fiction books from recent years
 
 ## Colophon
 
-Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html) and [Start with words](https://justinjackson.ca/words.html); last updated late December 2022.
+Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html) and [Start with words](https://justinjackson.ca/words.html); last updated January 2023.
