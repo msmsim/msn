@@ -2,7 +2,7 @@ Hi, I’m Matt. A writer turned product manager; a self-taught programmer; an au
 
 ## Contact
 
-The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m [responsive by default](https://swellandcut.com/sotw-2022/#community) and I operate by [Crocker’s Rules](http://sl4.org/crocker.html). You can also reach me on [Farcaster](https://www.farcaster.xyz/)(as @msms), [Twitter](https://twitter.com/Matthew_Sweet) (as @Matthew_Sweet), and via a dynamic set of Discord servers and Slack groups.
+The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m [responsive by default](https://swellandcut.com/sotw-2022/#community) and I operate by [Crocker’s Rules](http://sl4.org/crocker.html). You can also reach me on [Farcaster](https://www.farcaster.xyz/) (@msms), [Twitter](https://twitter.com/Matthew_Sweet) (@Matthew_Sweet) and via a dynamic set of Discord servers and Slack groups.
 
 ## Now
 
