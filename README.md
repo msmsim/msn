@@ -1,23 +1,20 @@
-Hi, I’m Matt. A writer turned product manager; a self-taught programmer; an autodidact. I'm especially interested in the intersection of complex systems, computing and communication. My latest [annual review-roundup-reflection](https://swellandcut.com/sotw-2022) provides some more context.
+Hi, my name is Matt. I'm a reader, writer and product manager focused on the intersection of complex systems, computing and communication. My [2022 annual review](https://swellandcut.com/sotw-2022) contextualises the entity that is Me; the ["Now"](https://www.msweet.net/#now) and ["Previously"](https://www.msweet.net/#previously) sections below enumerate notable present and past activities, whilst the ["Seminal Reads"](https://www.msweet.net/#seminal-reads) and ["Seminal Writes"](https://www.msweet.net/#seminal-writes) sections draw attention to impactful books I've read and salient textual artefacts I've produced.
 
 ## Contact
 
-The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m [responsive by default](https://swellandcut.com/sotw-2022/#community) and I operate by [Crocker’s Rules](http://sl4.org/crocker.html). You can also reach me on [Farcaster](https://www.farcaster.xyz/) (@msms), [Twitter](https://twitter.com/Matthew_Sweet) (@Matthew_Sweet) and via a dynamic set of Discord servers and Slack groups.
+The simplest way to reach me is email: _matt@thisdomain_. I use email for correspondence, instead of capture. I’m [responsive by default](https://swellandcut.com/sotw-2022/#community) and I operate by [Crocker’s Rules](http://sl4.org/crocker.html). I'm also reachable on [Warpcast](https://www.farcaster.xyz/), [Twitter](https://twitter.com/Matthew_Sweet) and a dynamic set of Discord servers and Slack groups. 
 
 ## Now
 
-Right now, I am:
-
-- Doing [product management](https://swellandcut.com/useful-fictions/)
-- Providing informal product advisory services
-- Maintaining [The Magnificent Seven](https://buttondown.email/mag7)
-- Researching [motion-based approaches to computing and intelligence](https://aeon.co/ideas/is-nature-continuous-or-discrete-how-the-atomist-error-was-born)
-- Hanging out at [The Yak Collective](https://www.yakcollective.org/about)
-- Occasionally blogging at [Swell and Cut](https://www.swellandcut.com/)
+- Product at a UK-based B2B startup
+- Product-focused dialogues and "sparring" with select individuals/orgs
+- Building something for curators
+- Maintaining [The Magnificent Seven](https://buttondown.email/mag7)
+- Researching [motion-based approaches to computing and intelligence](https://aeon.co/ideas/is-nature-continuous-or-discrete-how-the-atomist-error-was-born)
+- Hanging out at [The Yak Collective](https://www.yakcollective.org/about)
+- Sometimes blogging at [Swell and Cut](https://www.swellandcut.com/)
 
 ## Previously
-
-Previously, I have:
 
 - Served as temporary benevolent dictator for [YakCon](https://lu.ma/yakcon)
 - Contributed to a [sustainability-focused pop-up consulting project](https://yakcollective.substack.com/p/calling-all-yaks-yak-collective-pop)
@@ -43,19 +40,19 @@ Previously, I have:
 
 My top non-fiction reads of 2022 (more info [here](https://swellandcut.com/2023/01/17/sotw-2022/#read)):
 
-- [_Critical Systems Thinking and the Management of Complexity_](https://www.wiley.com/en-gb/Critical+Systems+Thinking+and+the+Management+of+Complexity-p-9781119118398)
-- [_Theory of the Earth_](https://www.sup.org/books/title/?id=33107)
-- [_The Matter with Things Vol. 1_](https://channelmcgilchrist.com/the-matter-with-things-by-iain-mcgilchrist/)
-- [_Seeing That Frees_](http://seeingthatfrees.com/)
-- [_Understanding Comics_](https://en.wikipedia.org/wiki/Understanding_Comics)
-- [_Working_](https://www.robertcaro.com/the-books/working/)
-- [_The Figure of the Migrant_](https://www.sup.org/books/title/?id=23425)
-- [_Theory of the Image_](https://global.oup.com/academic/product/theory-of-the-image-9780190050085?cc=us&lang=en&)
-- [_Ideas That Created the Future_](https://direct.mit.edu/books/book/5003/Ideas-That-Created-the-FutureClassic-Papers-of)
-- [_Product Management in Practice (2nd Ed.)_](https://www.oreilly.com/library/view/product-management-in/9781098119720/)
-- [_Theory of the Border_](https://global.oup.com/academic/product/theory-of-the-border-9780190618650?cc=us&lang=en&)
-- [_The Living Mountain_ (_Grampian Quartet_ 4)](https://en.wikipedia.org/wiki/Nan_Shepherd)
-- [_Theory of the Object_](https://edinburghuniversitypress.com/book-theory-of-the-object.html)
+- [_Critical Systems Thinking and the Management of Complexity_](https://www.wiley.com/en-gb/Critical+Systems+Thinking+and+the+Management+of+Complexity-p-9781119118398), Michael C. Jackson
+- [_Theory of the Earth_](https://www.sup.org/books/title/?id=33107), Thomas Nail
+- [_The Matter with Things Vol. 1_](https://channelmcgilchrist.com/the-matter-with-things-by-iain-mcgilchrist/), Iain McGilchrist
+- [_Seeing That Frees_](http://seeingthatfrees.com/), Rob Burbea
+- [_Understanding Comics_](https://en.wikipedia.org/wiki/Understanding_Comics), Scott McCloud
+- [_Working_](https://www.robertcaro.com/the-books/working/), Robert Caro
+- [_The Figure of the Migrant_](https://www.sup.org/books/title/?id=23425), Thomas Nail
+- [_Theory of the Image_](https://global.oup.com/academic/product/theory-of-the-image-9780190050085?cc=us&lang=en&), Thomas Nail
+- [_Ideas That Created the Future_](https://direct.mit.edu/books/book/5003/Ideas-That-Created-the-FutureClassic-Papers-of), Harry R. Lewis
+- [_Product Management in Practice (2nd Ed.)_](https://www.oreilly.com/library/view/product-management-in/9781098119720/), Matt LeMay
+- [_Theory of the Border_](https://global.oup.com/academic/product/theory-of-the-border-9780190618650?cc=us&lang=en&), Thomas Nail
+- [_The Living Mountain_ (_Grampian Quartet_ 4)](https://en.wikipedia.org/wiki/Nan_Shepherd), Nan Shepherd
+- [_Theory of the Object_](https://edinburghuniversitypress.com/book-theory-of-the-object.html), Thomas Nail
 
 
 ### Other impactful reads
@@ -109,6 +106,17 @@ __On human nature:__
 - [_Boyd: The Fighter Pilot Who Changed the Art of War_](https://www.amazon.com/Boyd-Fighter-Pilot-Who-Changed/dp/0316796883), Robert Coram
 - [_The Power Broker_](https://en.wikipedia.org/wiki/The_Power_Broker), [_The Years of Lyndon Johnson_](https://en.wikipedia.org/wiki/The_Years_of_Lyndon_Johnson), Robert Caro
 
+## Seminal Writes
+
+Some recent favourites from my own corpus of non-fiction blogging.
+
+- [Crackpots](https://swellandcut.com/2022/11/19/crackpots/)
+- [Useful fictions](https://swellandcut.com/2022/11/04/useful-fictions/)
+- [May the mirror decide](https://swellandcut.com/2022/05/08/may-the-mirror-decide/)
+- [A roadmap for catalysts](https://swellandcut.com/2022/01/02/a-roadmap-for-catalysts/)
+- [Becoming an organism](https://swellandcut.com/2021/09/09/becoming-an-organism/)
+- [Analogue reality](https://swellandcut.com/2021/03/14/analogue-reality/)
+
 ## Colophon
 
-Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html) and [Start with words](https://justinjackson.ca/words.html); last updated January 2023.
+Inspired by [Hyperlinked Text](https://sjmulder.nl/en/textonly.html) and [Start with words](https://justinjackson.ca/words.html); last updated March 2023.
