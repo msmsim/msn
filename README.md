@@ -32,7 +32,7 @@ The simplest way to reach me is email: _matt@thisdomain_. I use email for corres
 - Self-published [_Disconnected_](https://swellandcut.com/disconnected), a collection of blog posts
 - Produced six long-form, Paris Review style [interviews](https://swellandcut.com/interviews)
 - Published [1,300+ blog posts](https://swellandcut.com/archive)
-
+- Worked as a factory operative, movement coach, security response team member and waiter/bartender
 
 ## Seminal Reads
 
