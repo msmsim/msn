@@ -8,6 +8,22 @@ body {
     background-color: #fafafa; /* Slightly off-white to reduce glare */
 }
 
+/* Smaller screens (tablets) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        width: 90%;
+    }
+}
+
+/* Very small screens (mobile phones) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        width: 95%;
+    }
+}
+
 h1, h2, h3, h4, h5, h6, strong, b {
     font-family: "inter", serif; /* Apply serif font to all headings and bold text */
 }
