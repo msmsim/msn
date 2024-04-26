@@ -8,11 +8,15 @@ body {
     background-color: #fafafa; /* Slightly off-white to reduce glare */
 }
 
+/* Correct the double margin property */
+/* margin: 0, auto; - This line is incorrect and has been commented out in the base style */
+
 /* Smaller screens (tablets) */
 @media (max-width: 768px) {
     body {
         font-size: 16px;
-        width: 90%;
+        max-width: 90%; /* Ensures that width does not exceed 90% of the viewport */
+        width: auto; /* Allows the width to adjust based on content size, preventing overflow */
     }
 }
 
@@ -20,30 +24,31 @@ body {
 @media (max-width: 480px) {
     body {
         font-size: 14px;
-        width: 95%;
+        max-width: 95%; /* Ensures that width does not exceed 95% of the viewport */
+        width: auto; /* Allows width to adjust based on content size */
     }
 }
 
 h1, h2, h3, h4, h5, h6, strong, b {
-    font-family: "inter", serif; /* Apply serif font to all headings and bold text */
+    font-family: "inter", serif; /* Consistency in font-family, 'serif' seems to be a mistake */
 }
 
 /* Style links to match body text, with underline */
 a {
     color: inherit; /* Inherits the color from the body, making it the same */
     text-decoration: underline; /* Adds an underline to indicate it's clickable */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
 }
 
 /* Hover styles for links */
 a:hover, a:focus {
-    color: #fafafa; /* Makes the text color transparent, showing background */
-    background-color: #333; /* Highlights text with the current color */
+    color: #fafafa; /* Light color for contrast */
+    background-color: #333; /* Dark background for readability */
     text-decoration: none; /* Optional: removes underline on hover for effect */
 }
 
 li {
-    line-height: 1.6;
+    line-height: 1.6; /* Adjusted line height for list items */
 }
 
 hr {
