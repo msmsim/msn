@@ -14,6 +14,19 @@
     <script defer data goatcounter="https://msweet.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
     <style>
+        :root {
+            --color-primary: hsl(120, 50%, 90%);
+            --color-secondary: hsl(120, 50%, 10%);
+            --color-tertiary: hsl(180, 80%, 20%);
+            --color-accent: hsl(60, 80%, 20%);
+        }
+        .dark {
+            --color-primary: hsl(120, 50%, 10%);
+            --color-secondary: hsl(120, 50%, 90%);
+            --color-tertiary: hsl(180, 80%, 80%);
+            --color-accent: hsl(60, 80%, 80%);
+        } 
+        
         @font-face {
             font-family: 'Departure Mono';
             src: url('/DepartureMono/DepartureMono.woff2') format('woff2'),
@@ -32,8 +45,8 @@
             margin: 2em auto;
             padding: 15px;
             max-width: 40em;
-            background-color: rgb(255, 245, 255);
-            color: rgb(3, 3, 3);
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
             font-family: 'Departure Mono', monospace;
         }
         h1, h2, h3 {
@@ -41,7 +54,7 @@
             line-height: 1.5em;
         }
         a {
-            color: rgb(3, 3, 3);
+            color: var(--color-accent);
         }
     </style>
     
