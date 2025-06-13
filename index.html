@@ -19,6 +19,9 @@
             --color-secondary: hsl(295, 50%, 10%);
             --color-tertiary: hsl(355, 80%, 20%);
             --color-accent: hsl(235, 80%, 20%);
+            --speed1: 22.92s;  /* φ² × 6 */
+            --speed2: 37.08s;  /* φ³ × 6 */
+            --speed3: 14.16s;  /* φ^1.5 × 6 */
         }
         .dark {
             --color-primary: hsl(295, 50%, 10%);
@@ -49,6 +52,74 @@
             color: var(--color-secondary);
             font-family: 'Departure Mono', monospace;
         }
+
+        .three-body {
+            position: relative;
+            width: 100%;
+            height: 20px;
+            margin: 0 auto 0.5rem auto;
+            overflow: hidden;
+        }
+
+
+        .body-node {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            opacity: 0.85;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .body1 {
+            background: var(--color-tertiary);
+            animation: body-motion1 var(--speed1) ease-in-out infinite;
+        }
+
+        .body2 {
+            background: var(--color-tertiary);
+            animation: body-motion2 var(--speed2) ease-in-out infinite;
+        }
+
+        .body3 {
+            background: var(--color-tertiary);
+            animation: body-motion3 var(--speed3) ease-in-out infinite;
+        }
+
+        @keyframes body-motion1 {
+            0% { left: 0%; transform: translateY(-50%) translate(0, 0px) scale(1) rotate(0deg); }
+            12% { left: 30%; transform: translateY(-50%) translate(0, -3px) scale(1.4) rotate(60deg); }
+            25% { left: 70%; transform: translateY(-50%) translate(0, 4px) scale(0.7) rotate(120deg); }
+            37% { left: 15%; transform: translateY(-50%) translate(0, -2px) scale(1.2) rotate(180deg); }
+            50% { left: 85%; transform: translateY(-50%) translate(0, 5px) scale(0.8) rotate(240deg); }
+            62% { left: 5%; transform: translateY(-50%) translate(0, -4px) scale(1.5) rotate(300deg); }
+            75% { left: 50%; transform: translateY(-50%) translate(0, 3px) scale(0.6) rotate(360deg); }
+            87% { left: 25%; transform: translateY(-50%) translate(0, -5px) scale(1.3) rotate(420deg); }
+            100% { left: 0%; transform: translateY(-50%) translate(0, 0px) scale(1) rotate(480deg); }
+        }
+
+        @keyframes body-motion2 {
+            0% { left: 35%; transform: translateY(-50%) translate(0, 2px) scale(0.9) rotate(0deg); }
+            14% { left: 80%; transform: translateY(-50%) translate(0, -4px) scale(1.3) rotate(45deg); }
+            28% { left: 10%; transform: translateY(-50%) translate(0, 6px) scale(0.6) rotate(90deg); }
+            42% { left: 95%; transform: translateY(-50%) translate(0, -3px) scale(1.4) rotate(135deg); }
+            57% { left: 60%; transform: translateY(-50%) translate(0, 4px) scale(0.8) rotate(180deg); }
+            71% { left: 20%; transform: translateY(-50%) translate(0, -6px) scale(1.2) rotate(225deg); }
+            85% { left: 75%; transform: translateY(-50%) translate(0, 3px) scale(0.7) rotate(270deg); }
+            100% { left: 35%; transform: translateY(-50%) translate(0, 2px) scale(0.9) rotate(315deg); }
+        }
+
+        @keyframes body-motion3 {
+            0% { left: 65%; transform: translateY(-50%) translate(0, -2px) scale(1.1) rotate(0deg); }
+            16% { left: 20%; transform: translateY(-50%) translate(0, 5px) scale(0.7) rotate(30deg); }
+            33% { left: 90%; transform: translateY(-50%) translate(0, -5px) scale(1.4) rotate(60deg); }
+            50% { left: 40%; transform: translateY(-50%) translate(0, 3px) scale(0.9) rotate(90deg); }
+            66% { left: 85%; transform: translateY(-50%) translate(0, -4px) scale(1.2) rotate(120deg); }
+            83% { left: 10%; transform: translateY(-50%) translate(0, 6px) scale(0.6) rotate(150deg); }
+            100% { left: 65%; transform: translateY(-50%) translate(0, -2px) scale(1.1) rotate(180deg); }
+        }
+
         h1 {
             font-family: 'Departure Mono', monospace;
             font-weight: 550;
@@ -74,6 +145,11 @@
     
 </head>
 <body>
+<div class="three-body">
+    <div class="body-node body1"></div>
+    <div class="body-node body2"></div>
+    <div class="body-node body3"></div>
+</div>
 <h1>Matthew McDowell-Sweet | In Motion</h1>
     <p>Hi there. I'm Matt.</p>
     <ul>
@@ -86,7 +162,7 @@
     <p>A selection of current activities and projects</p>
     <ul>
         <li>Building <a href="https://subset.network">Subset</a></li>
-        <li>Researching <a href="http://www.kinocomputing.com">kinocomputing</a></li>
+        <li>Researching <a href="https://kinocomputing.com">kinocomputing</a></li>
         <li>Acquiring a <a href="https://www.mathacademy.com/courses/mathematical-foundations-ii">mathematical foundation</a></li>
         <li>Posting finds to <a href="https://warpcast.com/msms">Farcaster</a> &/ <a href="https://bsky.app/profile/msweet.net">Bluesky</a> &/ <a href="https://x.com/@Matthew_Sweet">X</a></li>
         <li>Practicing Brazilian jiu-jitsu</li>
@@ -96,12 +172,13 @@
             <summary>A selection of salient past activities, projects and milestones</summary>
             <ul>
                 <li>Completed <a href="https://swellandcut.com/learning-retro-mathematical-foundations-i">Mathematical Foundations I</a> (Jan-May 2025)</li>
-                <li>Sent out <a href="https://swellandcut.com/mag7/">222 weekly email digests</a> with 1500ish links (summer 2020-Oct. 2024)</li>
+                <li>Gave <a href="https://swellandcut.com/2025/01/16/sotw-2024/#speak">daily love cards</a> (Jan. 2020-Dec. 2020)</li>
+                <li>Sent out <a href="https://swellandcut.com/mag7/">222 weekly email digests</a> (summer 2020-Oct. 2024)</li>
                 <li>Reacquianted myself with <a href="https://learngitbranching.js.org/">Git branching</a> (Oct. 2024)</li>
                 <li>Learned <a href="https://www.coursera.org/learn/learning-how-to-learn">how to learn</a> (Sept. 2024)</li>
-                <li>Product and content at a B2B software marketplace startup (late 2020-early 2024)</li>
+                <li>Product at a B2B software marketplace startup (2020-2024)</li>
                 <li><a href="https://yakcollective.substack.com/p/yak-governance-studies-sequence-intro">Yak Governance Studies Sequence</a> contributor (May-June 2023)</li>
-                <li>Contributor to <a href="https://www.sonyasupposedly.com/elkas-welcome/">the tinker's tale</a> within <a href="https://wanderverse.org/">the Wanderverse</a> (March 2023)</li>
+                <li>Told <a href="https://www.sonyasupposedly.com/elkas-welcome/">the tinker's tale</a> within <a href="https://wanderverse.org/">the Wanderverse</a> (March 2023)</li>
                 <li>Temporary Benevolent Dictator, <a href="https://lu.ma/yakcon">YakCon</a> (Jan. 2023)</li>
                 <li>Contributor to a YC <a href="https://yakcollective.substack.com/p/calling-all-yaks-yak-collective-pop">pop-up consulting project</a> (Dec. 2022)</li>
                 <li>Learned to <a href="https://www.scrum.org/professional-scrum-product-owner-certifications">Product Own</a> (Aug. 2022)</li>
@@ -112,16 +189,16 @@
                 <li>Explored <a href="https://swellandcut.com/ecpm/">elements of product management</a> (summer 2020)</li>
                 <li>Contributed to <a href="https://yakcollective.substack.com/">Yak Talk</a> (summer 2020)</li>
                 <li>Learned to <a href="https://www.scrum.org/professional-scrum-certifications/professional-scrum-master-assessments">Scrum Master</a> (July 2020)</li>
-                <li>Self-published <a href="https://swellandcut.com/ss/"><i>Ss</i></a>, a short story collection (July 2020)</li>
-                <li>Self-published <a href="https://swellandcut.com/barker/"><i>Barker</i></a>, a novel (May 2020)</li>
+                <li>Self-pub'd <a href="https://swellandcut.com/ss/"><i>Ss</i></a>, a short story collection (July 2020)</li>
+                <li>Self-pub'd <a href="https://swellandcut.com/barker/"><i>Barker</i></a>, a novel (May 2020)</li>
                 <li>Provided freelance <a href="https://swellandcut.com/editorial/">editorial services</a> (2017-2019)</li>
                 <li>2 x Ribbonfarm <a href="https://www.ribbonfarm.com/author/msweet/">contributor</a> (2017-2018)</li>
                 <li>Completed <a href="https://www.ribbonfarm.com/2018/05/03/the-art-of-longform/">The Art of Longform</a> (summer 2017)</li>
                 <li>Produced six <a href="https://swellandcut.com/interviews/">Paris-Review-style interviews</a> (2016-2017)</li>
-                <li>Self-published <a href="https://swellandcut.com/disconnected/"><i>Disconnected</i></a>, a collection of blog posts (Aug. 2016)</li>
+                <li>Self-pub'd <a href="https://swellandcut.com/disconnected/"><i>Disconnected</i></a>, a blog post compilation (Aug. 2016)</li>
                 <li>Three years of <a href="https://swellandcut.com/archive">daily blogging</a> (Aug. 2015-Aug. 2018)</li>
                 <li>Factory work (mid 2017-mid 2020)</li>
-                <li>Waiting/bartending, movement coaching, event security response (2010-2017)</li>
+                <li>Hospitality, movement coaching, event security (2010-2017)</li>
                 <li>Mediocre student, okay athlete (2000s)</li>
                 <li>Born (early 1990s)</li>
             </ul>
@@ -156,6 +233,20 @@
                 <li><span><a href="https://www.goodreads.com/book/show/337520.Deceit_Desire_and_the_Novel"><i>Desire, Deceit and the Novel</i></a></span>, Rene Girard</li>
                 <li><span><a href="https://academic.oup.com/book/43685"><i>Being and Motion</i></a></span>, Thomas Nail</li>
                 <li><span><a href="https://summerofprotocols.com/kit"><i>The Protocol Kit</i></a></span>, Summer of Protocols 2023 Cohort</li>
+            </ul>
+        </details>
+        <hr>
+        <details>
+            <summary>Pilgrimages</summary>
+            <p>Whereas "quake books" instantly and irrevocably alter one's inner landscape, "pilgrimages" are long and toilsome initiatives undertaken mostly on faith in the transformative power of the journey itself.</p>
+            <p>Below are the unreasonably long texts (or, more commonly, series of texts) that had a disproportionate impact on me, and that I will tirelessly shill given the opportunity.</p>
+            <ul>
+                <li><span><a href="https://www.robertcaro.org/books"><i>The Years of Lyndon Johnson</i></a></span> and <span><a href="https://www.robertcaro.org/the-power-broker"><i>The Power Broker</i></a></span>, Robert Caro</li>
+                <li><span><a href="https://en.m.wikipedia.org/wiki/Malazan_Book_of_the_Fallen"><i>The Malazan Book of the Fallen</i></a></span>, Steven Erikson</li>
+                <li><span><a href="https://en.wikipedia.org/wiki/Hitler_(Ullrich_books)"><i>Hitler: Ascent</i></a></span> and <span><a href="https://en.wikipedia.org/wiki/Hitler_(Ullrich_books)"><i>Hitler: Downfall</i></a></span>, Volker Ullrich</li>
+                <li><span><a href="https://en.wikipedia.org/wiki/Culture_series"><i>The Culture Series</i></a></span>, Iain M. Banks</li>
+                <li><span><a href="https://channelmcgilchrist.com/the-matter-with-things-by-iain-mcgilchrist/"><i>The Matter with Things</i></a></span>, Iain McGilchrist</li>
+                <li><span><a href="https://en.wikipedia.org/wiki/Fernand_Braudel#Capitalism"><i>Civilisation and Capitalism</i></a></span>, Fernand Braudel</li>
             </ul>
         </details>
         <hr>
@@ -351,7 +442,7 @@
                     </details>
         </details>
         <br>
-        <p style="font-size: smaller;"><i>Updated: June 2025. Aesthetic: <a href="https://anthonyhobday.com">Anthony Hobday</a> and <a href="https://justinjackson.ca/words.html">Justin Jackson</a>. Type: <a href="https://departuremono.com">Departure Mono</a>. Colours via <a href="https://www.iamsajid.com/colors/">Sajid's calculator</a>.</i></p>
+        <p style="font-size: smaller;"><i>Last updated June 2025. The motion animation shows <a href="https://en.wikipedia.org/wiki/Three-body_problem">three bodies</a> in a <a href="https://en.wikipedia.org/wiki/Van_der_Pol_oscillator">Van der Pol oscillation</a> with <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a> frequencies. Textual aesthetic inspired by <a href="https://anthonyhobday.com">Anthony Hobday</a> and <a href="https://justinjackson.ca/words.html">Justin Jackson</a>. The type used is <a href="https://departuremono.com">Departure Mono</a>. Colours via <a href="https://www.iamsajid.com/colors/">Sajid's calculator</a>.</i></p>
 </body>
 
 </html>
