@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
     <title>Matthew McDowell-Sweet | In Motion</title>
     <meta name="description" content="The hub page for Matthew McDowell-Sweet, a product manager and builder with a broad interest in complex systems, computing and communication. Includes contact info, current and past activities, and seminal reads.">
     <link rel="icon" href="/msn-fav.png" type="image/png" alt="msweet.net's logo">
@@ -17,144 +18,228 @@
     <script defer data goatcounter="https://msweet.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
     <style>
-    
-        :root {
-            --color-primary: hsl(110, 50%, 90%);
-            --color-secondary: hsl(110, 50%, 10%);
-            --color-tertiary: hsl(170, 80%, 20%);
-            --color-accent: hsl(50, 80%, 20%);
-            --speed1: 22.92s;  /* φ² × 6 */
-            --speed2: 37.08s;  /* φ³ × 6 */
-            --speed3: 14.16s;  /* φ^1.5 × 6 */
-        }
-        .dark {
-            --color-primary: hsl(110, 50%, 10%);
-            --color-secondary: hsl(110, 50%, 90%);
-            --color-tertiary: hsl(170, 80%, 80%);
-            --color-accent: hsl(50, 80%, 80%);
-        }
-                
-        
-        @font-face {
-            font-family: 'Departure Mono';
-            src: url('/DepartureMono/DepartureMono-Regular.woff2') format('woff2'),
-                 url('/DepartureMono/DepartureMono-Regular.woff') format('woff');
+        /* MINIMAL VIABLE PROSE STYLES */
+
+        html {
+          scrollbar-gutter: stable both-edges;
         }
 
-        @font-face {
-            font-family: 'IBM Plex Serif';
-            src: url('/IBMPlexSerifReg/IBMPlexSerif-Regular.woff2') format('woff2'),
-                 url('/IBMPlexSerifReg/IBMPlexSerif-Regular.woff') format('woff');
-        }
-        
         body {
-            font-size: 1em;
-            line-height: 1.5em;
-            margin: 2em auto;
-            padding: 15px;
-            max-width: 40em;
-            background-color: var(--color-primary);
-            color: var(--color-secondary);
-            font-family: 'Departure Mono', monospace;
+          font-size: 14px;
+          line-height: 1.5;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          color: #1a1a1a;
+          background: #ffffff;
+          max-width: 65ch;
+          margin: 1rem auto;
+          padding: 0 1rem;
         }
 
-        .three-body {
-            position: relative;
-            width: 100%;
-            height: 20px;
-            margin: 0 auto 0.5rem auto;
-            overflow: hidden;
+        /* HEADINGS */
+        h1, h2, h3, h4, h5, h6 {
+          line-height: 1.2;
+          margin-top: 1em;
+          margin-bottom: 0.3em;
+          font-weight: 500;
         }
 
+        h1 { font-size: 1.5em; }
+        h2 { font-size: 1.35em; }
+        h3 { font-size: 1.15em; }
+        h4 { font-size: 1.05em; }
 
-        .body-node {
-            position: absolute;
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            opacity: 0.85;
-            top: 50%;
-            transform: translateY(-50%);
+        /* PARAGRAPHS */
+        p {
+          margin-top: 0;
+          margin-bottom: 0.75em;
         }
 
-        .body1 {
-            background: var(--color-tertiary);
-            animation: body-motion1 var(--speed1) ease-in-out infinite;
-        }
-
-        .body2 {
-            background: var(--color-tertiary);
-            animation: body-motion2 var(--speed2) ease-in-out infinite;
-        }
-
-        .body3 {
-            background: var(--color-tertiary);
-            animation: body-motion3 var(--speed3) ease-in-out infinite;
-        }
-
-        @keyframes body-motion1 {
-            0% { left: 0%; transform: translateY(-50%) translate(0, 0px) scale(1) rotate(0deg); }
-            12% { left: 30%; transform: translateY(-50%) translate(0, -3px) scale(1.4) rotate(60deg); }
-            25% { left: 70%; transform: translateY(-50%) translate(0, 4px) scale(0.7) rotate(120deg); }
-            37% { left: 15%; transform: translateY(-50%) translate(0, -2px) scale(1.2) rotate(180deg); }
-            50% { left: 85%; transform: translateY(-50%) translate(0, 5px) scale(0.8) rotate(240deg); }
-            62% { left: 5%; transform: translateY(-50%) translate(0, -4px) scale(1.5) rotate(300deg); }
-            75% { left: 50%; transform: translateY(-50%) translate(0, 3px) scale(0.6) rotate(360deg); }
-            87% { left: 25%; transform: translateY(-50%) translate(0, -5px) scale(1.3) rotate(420deg); }
-            100% { left: 0%; transform: translateY(-50%) translate(0, 0px) scale(1) rotate(480deg); }
-        }
-
-        @keyframes body-motion2 {
-            0% { left: 35%; transform: translateY(-50%) translate(0, 2px) scale(0.9) rotate(0deg); }
-            14% { left: 80%; transform: translateY(-50%) translate(0, -4px) scale(1.3) rotate(45deg); }
-            28% { left: 10%; transform: translateY(-50%) translate(0, 6px) scale(0.6) rotate(90deg); }
-            42% { left: 95%; transform: translateY(-50%) translate(0, -3px) scale(1.4) rotate(135deg); }
-            57% { left: 60%; transform: translateY(-50%) translate(0, 4px) scale(0.8) rotate(180deg); }
-            71% { left: 20%; transform: translateY(-50%) translate(0, -6px) scale(1.2) rotate(225deg); }
-            85% { left: 75%; transform: translateY(-50%) translate(0, 3px) scale(0.7) rotate(270deg); }
-            100% { left: 35%; transform: translateY(-50%) translate(0, 2px) scale(0.9) rotate(315deg); }
-        }
-
-        @keyframes body-motion3 {
-            0% { left: 65%; transform: translateY(-50%) translate(0, -2px) scale(1.1) rotate(0deg); }
-            16% { left: 20%; transform: translateY(-50%) translate(0, 5px) scale(0.7) rotate(30deg); }
-            33% { left: 90%; transform: translateY(-50%) translate(0, -5px) scale(1.4) rotate(60deg); }
-            50% { left: 40%; transform: translateY(-50%) translate(0, 3px) scale(0.9) rotate(90deg); }
-            66% { left: 85%; transform: translateY(-50%) translate(0, -4px) scale(1.2) rotate(120deg); }
-            83% { left: 10%; transform: translateY(-50%) translate(0, 6px) scale(0.6) rotate(150deg); }
-            100% { left: 65%; transform: translateY(-50%) translate(0, -2px) scale(1.1) rotate(180deg); }
-        }
-
-        h1 {
-            font-family: 'Departure Mono', monospace;
-            font-weight: 550;
-            line-height: 1.5em;
-            font-size: 1.5em;
-        }
-
-        h2, h3 {
-            font-family: 'Departure Mono', monospace;
-            font-weight: 400;
-            line-height: 1.5em;
-        }
+        /* LINKS */
         a {
-            color: var(--color-accent);
-            transition: color 0.1s;
+          color: #0066cc;
+          text-decoration: underline;
         }
 
         a:hover {
-            color: var(--color-primary);
-            background-color: var(--color-accent);
-        }
-        
-        details details {
-            margin-bottom: 0.75em;
+          color: #0052a3;
+          background: #e6f0ff;
         }
 
+        /* LISTS */
+        ul, ol {
+          margin-bottom: 0.75em;
+          padding-left: 1.25em;
+        }
+
+        li {
+          margin-bottom: 0.25em;
+        }
+
+        /* BLOCKQUOTES */
+        blockquote {
+          margin: 0.75em 0;
+          padding-left: 1em;
+          border-left: 3px solid #ddd;
+          font-style: italic;
+          color: #555;
+        }
+
+        /* CODE */
+        code {
+          font-family: "SF Mono", Monaco, "Cascadia Code", monospace;
+          font-size: 0.9em;
+          background: #f5f5f5;
+          padding: 0.2em 0.4em;
+          border-radius: 3px;
+        }
+
+        pre {
+          background: #f5f5f5;
+          padding: 1em;
+          overflow-x: auto;
+          border-radius: 3px;
+          line-height: 1.4;
+        }
+
+        pre code {
+          background: none;
+          padding: 0;
+        }
+
+        /* IMAGES */
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        /* HORIZONTAL RULES */
         hr {
-            margin: 1em 0;
+          border: none;
+          border-top: 1px solid #ddd;
+          margin: 1em 0;
         }
 
+        /* THREE-BODY ANIMATION */
+        .three-body {
+          position: relative;
+          width: 100%;
+          height: 20px;
+          margin: 0 0 0.75rem 0;
+          overflow: hidden;
+        }
+
+        .body-node {
+          position: absolute;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: #1a1a1a;
+          opacity: 0.6;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        .body1 { animation: body-motion1 22.92s ease-in-out infinite; }
+        .body2 { animation: body-motion2 37.08s ease-in-out infinite; }
+        .body3 { animation: body-motion3 14.16s ease-in-out infinite; }
+
+        @keyframes body-motion1 {
+          0% { left: 0%; transform: translateY(-50%) scale(1); }
+          12% { left: 30%; transform: translateY(-50%) scale(1.4); }
+          25% { left: 70%; transform: translateY(-50%) scale(0.7); }
+          37% { left: 15%; transform: translateY(-50%) scale(1.2); }
+          50% { left: 85%; transform: translateY(-50%) scale(0.8); }
+          62% { left: 5%; transform: translateY(-50%) scale(1.5); }
+          75% { left: 50%; transform: translateY(-50%) scale(0.6); }
+          87% { left: 25%; transform: translateY(-50%) scale(1.3); }
+          100% { left: 0%; transform: translateY(-50%) scale(1); }
+        }
+
+        @keyframes body-motion2 {
+          0% { left: 35%; transform: translateY(-50%) scale(0.9); }
+          14% { left: 80%; transform: translateY(-50%) scale(1.3); }
+          28% { left: 10%; transform: translateY(-50%) scale(0.6); }
+          42% { left: 95%; transform: translateY(-50%) scale(1.4); }
+          57% { left: 60%; transform: translateY(-50%) scale(0.8); }
+          71% { left: 20%; transform: translateY(-50%) scale(1.2); }
+          85% { left: 75%; transform: translateY(-50%) scale(0.7); }
+          100% { left: 35%; transform: translateY(-50%) scale(0.9); }
+        }
+
+        @keyframes body-motion3 {
+          0% { left: 65%; transform: translateY(-50%) scale(1.1); }
+          16% { left: 20%; transform: translateY(-50%) scale(0.7); }
+          33% { left: 90%; transform: translateY(-50%) scale(1.4); }
+          50% { left: 40%; transform: translateY(-50%) scale(0.9); }
+          66% { left: 85%; transform: translateY(-50%) scale(1.2); }
+          83% { left: 10%; transform: translateY(-50%) scale(0.6); }
+          100% { left: 65%; transform: translateY(-50%) scale(1.1); }
+        }
+
+        /* DETAILS/SUMMARY */
+        details {
+          margin-bottom: 0.75em;
+        }
+
+        summary {
+          cursor: pointer;
+          font-weight: 500;
+          margin-bottom: 0.25em;
+        }
+
+        summary:hover {
+          color: #0066cc;
+        }
+
+        details[open] summary {
+          margin-bottom: 0.5em;
+        }
+
+        details details {
+          margin-left: 1em;
+        }
+
+        /* FOOTER */
+        footer {
+          margin: 2em 0 1em;
+          color: #ffffff;
+          font-size: 0.75em;
+          font-style: italic;
+          user-select: text;
+        }
+
+        /* TAB NAVIGATION */
+        .tabs {
+          display: flex;
+          gap: 0;
+          margin: 1rem 0;
+        }
+
+        .tab {
+          background: none;
+          border: none;
+          padding: 0.5rem 0.5rem;
+          cursor: pointer;
+          font-size: inherit;
+          color: #555;
+        }
+
+        .tab:hover {
+          color: #0066cc;
+        }
+
+        .tab.active {
+          color: #0066cc;
+          border-bottom: 2px solid #0066cc;
+        }
+
+        .tab-content {
+          display: none;
+        }
+
+        .tab-content.active {
+          display: block;
+        }
     </style>
     
 </head>
@@ -165,69 +250,76 @@
     <div class="body-node body3"></div>
 </div>
 <h1>Matthew McDowell-Sweet | In Motion</h1>
-    <p>Hi there. I'm Matt.</p>
 
+<nav class="tabs">
+  <button class="tab active" data-tab="about">About</button>
+  <button class="tab" data-tab="now">Now</button>
+  <button class="tab" data-tab="previously">Previously</button>
+  <button class="tab" data-tab="reads">Reads</button>
+  <button class="tab" data-tab="colophon">Colophon</button>
+</nav>
+
+<section id="about" class="tab-content active">
+    <p>Hi there. I'm Matt.</p>
     <ul>
         <li>Product manager and builder</li>
         <li>Interested in complex systems, computing, communication</li>
         <li>Location: South West, England, U.K.</li>
         <li>Contact: <a href="mailto:matt@thisdomain">matt@thisdomain</a></li>
     </ul>
+</section>
 
-    <h2>Now</h2>
-    <p>Current activities and projects:</p>
+<section id="now" class="tab-content">
+    <p>Current activities and projects.</p>
     <ul>
         <li>Doing product management</li>
         <li>Acquiring a <a href="https://www.mathacademy.com/courses/mathematical-foundations-ii">mathematical foundation</a></li>
         <li>Building <a href="https://subset.network">Subset</a>, the private sharing network</li>
         <li>Practicing <a href="https://swellandcut.com/attending-to-grace/">Brazilian jiu-jitsu</a> and <a href="https://swellandcut.com/ageing-wild/">ageing wild</a></li>
     </ul>
-    <h2>Previously</h2>
-        <details open>
-            <summary>Salient past activities, projects, milestones:</summary>
-            <ul>
-                <li>Promo'd to <a href="https://swellandcut.com/attending-to-grace/">brown belt</a> in BJJ</li>
-                <li>Did <a href="https://swellandcut.com/whats-left">~8 hours / 100 rounds</a> of grappling in one day</li>
-                <li>Milestone: a <a href="https://swellandcut.com/decade">decade</a> of blogging</li>
-                <li>Completed <a href="https://swellandcut.com/learning-retro-mathematical-foundations-i">Mathematical Foundations I</a> (Jan-May 2025)</li>
-                <li>Gave <a href="https://swellandcut.com/2025/01/16/sotw-2024/#speak">daily love cards</a> (Jan. 2020-Dec. 2020)</li>
-                <li>Sent out <a href="https://swellandcut.com/mag7/">222 weekly email digests</a> (summer 2020-Oct. 2024)</li>
-                <li>Reacquianted myself with <a href="https://learngitbranching.js.org/">Git branching</a> (Oct. 2024)</li>
-                <li>Learned <a href="https://www.coursera.org/learn/learning-how-to-learn">how to learn</a> (Sept. 2024)</li>
-                <li>Product at a B2B software marketplace startup (2020-2024)</li>
-                <li>[<a href="#" onclick="
-                    document.querySelectorAll('.more').forEach(el => el.hidden = !el.hidden);
-                    this.textContent = this.textContent.includes('+') ? '-24' : '+24';
-                    return false;
-                ">+24</a>]</li>
-                <li class="more" hidden><a href="https://yakcollective.substack.com/p/yak-governance-studies-sequence-intro">Yak Gov. Studies Sequence</a> contributor (May-June 2023)</li>
-                <li class="more" hidden>Told <a href="https://www.sonyasupposedly.com/elkas-welcome/">the tinker's tale</a> within <a href="https://wanderverse.org/">the Wanderverse</a> (March 2023)</li>
-                <li class="more" hidden>Temporary Benevolent Dictator, <a href="https://lu.ma/yakcon">YakCon</a> (Jan. 2023)</li>
-                <li class="more" hidden>Contributor to a YC <a href="https://yakcollective.substack.com/p/calling-all-yaks-yak-collective-pop">pop-up consulting project</a> (Dec. 2022)</li>
-                <li class="more" hidden>Learned to <a href="https://www.scrum.org/professional-scrum-product-owner-certifications">Product Own</a> (Aug. 2022)</li>
-                <li class="more" hidden>Intro'd myself to <a href="https://www.coursera.org/specializations/data-science-python">data science</a> (June-July 2022)</li>
-                <li class="more" hidden>Self-published <a href="https://swellandcut.com/riven/"><i>Riven</i></a>, a novella (June 2022)</li>
-                <li class="more" hidden>Learned about <a href="https://www.learnenough.com/courses">CLIs, IDEs and Git</a> (late 2021)</li>
-                <li class="more" hidden>Speedran <a href="https://www.coursera.org/specializations/computer-fundamentals">computing fundamentals</a> (late 2020-late 2021)</li>
-                <li class="more" hidden>Explored <a href="https://swellandcut.com/ecpm/">elements of product management</a> (summer 2020)</li>
-                <li class="more" hidden>Contributed to <a href="https://yakcollective.substack.com/">Yak Talk</a> (summer 2020)</li>
-                <li class="more" hidden>Learned to <a href="https://www.scrum.org/professional-scrum-certifications/professional-scrum-master-assessments">Scrum Master</a> (July 2020)</li>
-                <li class="more" hidden>Self-pub'd <a href="https://swellandcut.com/ss/"><i>Ss</i></a>, a short story collection (July 2020)</li>
-                <li class="more" hidden>Self-pub'd <a href="https://swellandcut.com/barker/"><i>Barker</i></a>, a novel (May 2020)</li>
-                <li class="more" hidden>Provided freelance <a href="https://swellandcut.com/editorial/">editorial services</a> (2017-2019)</li>
-                <li class="more" hidden>2 x Ribbonfarm <a href="https://www.ribbonfarm.com/author/msweet/">contributor</a> (2017-2018)</li>
-                <li class="more" hidden>Completed <a href="https://www.ribbonfarm.com/2018/05/03/the-art-of-longform/">The Art of Longform</a> (summer 2017)</li>
-                <li class="more" hidden>Produced six <a href="https://swellandcut.com/interviews/">Paris-Review-style interviews</a> (2016-2017)</li>
-                <li class="more" hidden>Self-pub'd <a href="https://swellandcut.com/disconnected/"><i>Disconnected</i></a>, a book-of-blog-posts (Aug. 2016)</li>
-                <li class="more" hidden>Three years of <a href="https://swellandcut.com/archive">daily blogging</a> (Aug. 2015-Aug. 2018)</li>
-                <li class="more" hidden>Factory work (mid 2017-mid 2020)</li>
-                <li class="more" hidden>Hospitality, movement coaching, event security (2010-2017)</li>
-                <li class="more" hidden>Mediocre student, okay athlete (2000s)</li>
-                <li class="more" hidden>Born (early 1990s)</li>
-            </ul>
-        </details>
-    <h2>Reads</h2>
-        <p>Much of the goodness in my life has and continues to emerge from reading. Below are my current reading tracks, my highest rated books from the past few years, and a couple other lists.</p>
+</section>
+
+<section id="previously" class="tab-content">
+    <p>Salient past activities, projects, milestones.</p>
+    <ul>
+        <li>Promo'd to <a href="https://swellandcut.com/attending-to-grace/">brown belt</a> in BJJ (Dec. 2025)</li>
+        <li>Milestone: a <a href="https://swellandcut.com/decade">decade</a> of blogging (Aug. 2025)</li>
+        <li>Did <a href="https://swellandcut.com/whats-left">~8 hours / 100 rounds</a> of grappling in one day (July 2025)</li>
+        <li>Completed <a href="https://swellandcut.com/learning-retro-mathematical-foundations-i">Mathematical Foundations I</a> (Jan-May 2025)</li>
+        <li>Gave <a href="https://swellandcut.com/2025/01/16/sotw-2024/#speak">daily love cards</a> (Jan. 2020-Dec. 2020)</li>
+        <li>Sent out <a href="https://swellandcut.com/mag7/">222 weekly email digests</a> (summer 2020-Oct. 2024)</li>
+        <li>Reacquianted myself with <a href="https://learngitbranching.js.org/">Git branching</a> (Oct. 2024)</li>
+        <li>Learned <a href="https://www.coursera.org/learn/learning-how-to-learn">how to learn</a> (Sept. 2024)</li>
+        <li>Product at a B2B software marketplace startup (2020-2024)</li>
+        <li><a href="https://yakcollective.substack.com/p/yak-governance-studies-sequence-intro">Yak Gov. Studies Sequence</a> contributor (May-June 2023)</li>
+        <li>Told <a href="https://www.sonyasupposedly.com/elkas-welcome/">the tinker's tale</a> within <a href="https://wanderverse.org/">the Wanderverse</a> (March 2023)</li>
+        <li>Temporary Benevolent Dictator, <a href="https://lu.ma/yakcon">YakCon</a> (Jan. 2023)</li>
+        <li>Contributor to a YC <a href="https://yakcollective.substack.com/p/calling-all-yaks-yak-collective-pop">pop-up consulting project</a> (Dec. 2022)</li>
+        <li>Learned to <a href="https://www.scrum.org/professional-scrum-product-owner-certifications">Product Own</a> (Aug. 2022)</li>
+        <li>Intro'd myself to <a href="https://www.coursera.org/specializations/data-science-python">data science</a> (June-July 2022)</li>
+        <li>Self-published <a href="https://swellandcut.com/riven/"><i>Riven</i></a>, a novella (June 2022)</li>
+        <li>Learned about <a href="https://www.learnenough.com/courses">CLIs, IDEs and Git</a> (late 2021)</li>
+        <li>Speedran <a href="https://www.coursera.org/specializations/computer-fundamentals">computing fundamentals</a> (late 2020-late 2021)</li>
+        <li>Explored <a href="https://swellandcut.com/ecpm/">elements of product management</a> (summer 2020)</li>
+        <li>Contributed to <a href="https://yakcollective.substack.com/">Yak Talk</a> (summer 2020)</li>
+        <li>Learned to <a href="https://www.scrum.org/professional-scrum-certifications/professional-scrum-master-assessments">Scrum Master</a> (July 2020)</li>
+        <li>Self-pub'd <a href="https://swellandcut.com/ss/"><i>Ss</i></a>, a short story collection (July 2020)</li>
+        <li>Self-pub'd <a href="https://swellandcut.com/barker/"><i>Barker</i></a>, a novel (May 2020)</li>
+        <li>Provided freelance <a href="https://swellandcut.com/editorial/">editorial services</a> (2017-2019)</li>
+        <li>2 x Ribbonfarm <a href="https://www.ribbonfarm.com/author/msweet/">contributor</a> (2017-2018)</li>
+        <li>Completed <a href="https://www.ribbonfarm.com/2018/05/03/the-art-of-longform/">The Art of Longform</a> (summer 2017)</li>
+        <li>Produced six <a href="https://swellandcut.com/interviews/">Paris-Review-style interviews</a> (2016-2017)</li>
+        <li>Self-pub'd <a href="https://swellandcut.com/disconnected/"><i>Disconnected</i></a>, a book-of-blog-posts (Aug. 2016)</li>
+        <li>Three years of <a href="https://swellandcut.com/archive">daily blogging</a> (Aug. 2015-Aug. 2018)</li>
+        <li>Factory work (mid 2017-mid 2020)</li>
+        <li>Hospitality, movement coaching, event security (2010-2017)</li>
+        <li>Mediocre student, okay athlete (2000s)</li>
+        <li>Born (early 1990s)</li>
+    </ul>
+</section>
+
+<section id="reads" class="tab-content">
+        <p>Much of the goodness in my life has and continues to emerge from reading.</p>
         <details>
             <summary>Active reading tracks</summary>
             <p>I read continuously and in parallel. I'm a moody reader and reading multiple texts simply increases the probability that there's always something I'm excited to read at a particular moment. I accomplish this by having defined tracks that act as attentional braces, and it's a stance that applies to both fiction and non-fiction.</p>
@@ -240,10 +332,8 @@
                     </li>
                 </ul>
             <p>For fiction, I am splitting my reading between trad. high fantasy series and what the SoP gang call <span><a href="https://summerofprotocols.com/special-interest-groups"><i>"protocol fiction"</i></a></span>. That is, stories hingeing on strange rules, instead of special people.</p>
+            <br>
         </details>
-        
-        
-        <hr>
         <details>
             <summary>Quake books</summary>
             <p>A "quake book" is a text that radically perturbs how one thinks about and acts within the world. The shift is experienced, individually and ideally societally, as positive (as opposed to the negative shifts associated with ideological or epistemological info hazards).</p>
@@ -259,8 +349,8 @@
                 <li><span><a href="https://academic.oup.com/book/43685"><i>Being and Motion</i></a></span>, Thomas Nail</li>
                 <li><span><a href="https://summerofprotocols.com/kit"><i>The Protocol Kit</i></a></span>, Summer of Protocols 2023 Cohort</li>
             </ul>
+            <br>
         </details>
-        <hr>
         <details>
             <summary>Pilgrimages</summary>
             <p>Whereas "quake books" instantly and irrevocably alter one's inner landscape, "pilgrimages" are long and toilsome initiatives undertaken mostly on faith in the transformative power of the journey itself.</p>
@@ -273,9 +363,8 @@
                 <li><span><a href="https://channelmcgilchrist.com/the-matter-with-things-by-iain-mcgilchrist/"><i>The Matter with Things</i></a></span>, Iain McGilchrist</li>
                 <li><span><a href="https://en.wikipedia.org/wiki/Fernand_Braudel#Capitalism"><i>Civilisation and Capitalism</i></a></span>, Fernand Braudel</li>
             </ul>
+            <br>
         </details>
-        <hr>
-
         <details>
             <summary>Top rated books of 2025</summary>
             <p>In comparison to previous years, 2025 was an abysmal reading year for me. This was due to a chronic inability to focus for sustained periods, more frugality concerning my reading spend, and the prioritisation of <span><a href="https://www.mathacademy.com/">math skill development</a></span>.</p>
@@ -301,7 +390,7 @@
                 <li><a href="https://en.wikipedia.org/wiki/Patriot_(book)"><em>Patriot</em></a>, Alexei Navalny</li>
                 <li>(+) <a href="https://www.penguin.co.uk/books/192608/zero-zero-zero-by-saviano-roberto/9781846147708"><em>Zero, Zero, Zero</em></a>, Roberto Saviano</li>
                 </ul>
-
+                <br>
             </details>
 
             <details>
@@ -333,14 +422,10 @@
                     <li><a href="https://en.wikipedia.org/wiki/The_Wheel_of_Time"><em>The Shadow Rising (Wheel of Time 4)</em></a>, Robert Jordan</li>
                     <li><a href="https://en.wikipedia.org/wiki/The_Wheel_of_Time"><em>The Fires of Heaven (Wheel of Time 5)</em></a>, Robert Jordan</li>
                     </ul>
-
+                    <br>
             </details>
         
-        
-        
-        
         </details>
-        <hr>
         <details>
             <summary>Top rated books of 2024</summary>
             <p>All lists are based on the <span><a href="https://swellandcut.com/sotw-2024/#read">"Read" section</a></span> of my <span><a href="https://swellandcut.com/sotw-2024">2024 annual review</a></span>. A mega-thread of all of 2024's reads can be found <span><a href="https://warpcast.com/msms/0x6f69c9cf">here</a></span>.</p>
@@ -358,6 +443,7 @@
                         <li><span><a href="https://siddharthamukherjee.com/the-emperor-of-all-maladies/"><i>The Emperor of All Maladies</i></a></span>, Siddhartha Mukherjee</li>
                         <li><span><a href="https://en.wikipedia.org/wiki/The_MANIAC"><i>The MANIAC</i></a></span>, Benjamin Labatut</li>
                     </ul>
+                    <br>
                 </details>
                 <details>
                     <summary>Top rated fiction, 2024</summary>
@@ -373,6 +459,7 @@
                         <li><span><a href="https://en.wikipedia.org/wiki/Ancillary_Mercy"><i>Ancillary Mercy (Imperial Radch #3)</i></a></span>, Ann Leckie</li>
                         <li><span><a href="https://www.gregegan.net/MORPHOTROPHIC/MORPHOTROPHIC.html"><i>Morphotrophic</i></a></span>, Greg Egan</li>
                     </ul>
+                    <br>
                 </details>
                 <details>
                     <summary>Honourable mentions, 2024</summary>
@@ -387,9 +474,9 @@
                         <li><span><a href="https://sarahbakewell.com/books-3/the-english-dane/"><i>The English Dane</i></a></span>, Sarah Bakewell</li>
                         <li><span><a href="https://en.wikipedia.org/wiki/The_Secret_River"><i>The Secret River</i></a></span>, Kate Grenville</li>
                     </ul>
+                    <br>
                 </details>
         </details>
-        <hr>
         <details>
             <summary>Top rated books of 2023</summary>
             <p>All lists are based on the <span><a href="https://swellandcut.com/sotw-2023/#read">"Read" section</a></span> of my <span><a href="https://swellandcut.com/sotw-2023/">2023 annual review</a></span>. A mega-thread of all of 2023's reads can be found <span><a href="https://warpcast.com/msms/0x71239ef2">here</a></span>.</p>
@@ -416,6 +503,7 @@
                     <li><span><a href="https://1dimensional.com"><i>Behaviour and Culture in One Dimension</i></a></span>, Dennis P. Waters</li>
                     <li><span><a href="https://sites.santafe.edu/~wbarthur/thenatureoftechnology.htm"><i>The Nature of Technology</i></a></span>, W. Brian Arthur</li>
                     </ul>
+                    <br>
                 </details>
                 <details>
                     <summary>Top rated fiction, 2023</summary>
@@ -431,6 +519,7 @@
                     <li><span><a href="https://www.dc.com/graphic-novels/the-sandman-book-one"><i>The Sandman: Book One</i></a></span>, Neil Gaiman et. al</li>
                     <li><span><a href="https://en.wikipedia.org/wiki/Fool%27s_Fate"><i>Fool’s Fate</i> (The Tawny Man III)</a></span>, Robin Hobb</li>
                     </ul>
+                    <br>
                 </details>
                 <details>
                     <summary>Honourable mentions, 2023</summary>
@@ -446,9 +535,9 @@
                     <li><span><a href="https://wisdomexperience.org/product/being-time/"><i>Being-Time: A Practitioner’s Guide to Dogen’s Shobogenzo</i></a></span>, Shinshu Roberts</li>
                     <li><span><a href="https://en.wikipedia.org/wiki/Blockchain_Chicken_Farm"><i>Blockchain Chicken Farm</i></a></span>, Xiawei Wang</li>
                     </ul>
+                    <br>
                 </details>
         </details>
-        <hr>
         <details>
             <summary>Top rated books of 2022</summary>
             <p>All lists are based on the <span><a href="https://swellandcut.com/sotw-2022/#read">"Read" section</a></span> of my <span><a href="https://swellandcut.com/sotw-2022/">2022 annual review</a></span>.</p>
@@ -470,6 +559,7 @@
                     <li><span><a href="https://en.wikipedia.org/wiki/Nan_Shepherd"><i>The Living Mountain</i></a></span>, Nan Shepherd</li>
                     <li><span><a href="https://edinburghuniversitypress.com/book-theory-of-the-object.html"><i>Theory of the Object</i></a></span>, Thomas Nail</li>
                     </ul>
+                    <br>
                 </details>
                 <details>
                     <summary>Top rated fiction, 2022</summary>
@@ -486,6 +576,7 @@
                     <li><span><a href="https://www.aliettedebodard.com/bibliography/novels/obsidian-and-blood/"><i>Harbinger of the Storm</i></a></span> (Obsidian and Blood II), Aliette de Bodard</li>
                     <li><span><a href="https://www.aliettedebodard.com/bibliography/novels/obsidian-and-blood/"><i>Servant of the Underworld</i></a></span> (Obsidian and Blood I), Aliette de Bodard</li>
                     </ul>
+                    <br>
                 </details>
                 <details>
                     <summary>Honourable mentions, 2022</summary>
@@ -497,10 +588,10 @@
                     <li><span><a href="https://www.ursulakleguin.com/kalpa-imperial"><i>Kalpa Imperial</i></a></span>, Angélica Gorodischer / Ursula K. Le Guin</li>
                     <li><span><a href="https://www.amazon.co.uk/Principles-Product-Development-Flow-Generation/dp/1935401009"><i>Principles of Product Development Flow</i></a></span>, Donald G. Reinertsen</li>
                     </ul>
+                    <br>
                 </details>
             </details>
-            <hr>
-        <details>
+            <details>
                 <summary>Top rated books of 2021 (April to December)</summary>
                 <p>Both lists are based, in part, on the <span><a href="https://swellandcut.com/sotw-2021/#read">"Read" section</a></span> of my <span><a href="https://swellandcut.com/sotw-2021/">2021 annual review</a></span>.</p>
             
@@ -515,6 +606,7 @@
                         <li><span><a href="http://markburgess.org/treatise.html"><i>A Treatise on Systems Vol. 2: The Scaling of Intentional Systems with Faults, Errors and Flaws</i></a></span>, Mark Burgess</li>
                         <li><span><a href="https://en.wikipedia.org/wiki/How_to_Blow_Up_a_Pipeline"><i>How to Blow Up a Pipeline</i></a></span>, Andreas Malm</li>
                         </ul>
+                        <br>
                     </details>
                     <details>
                         <summary>Top rated fiction, 2021</summary>
@@ -530,10 +622,50 @@
                         <li><span><a href="https://en.wikipedia.org/wiki/Assassin%27s_Quest"><i>Assassin's Quest</i></a></span> (The Farseer Trilogy III), Robin Hobb</li>
                         <li><span><a href="https://www.goodreads.com/book/show/55505679-gerta"><i>Gerta: A Novel</i></a></span>, Katerina Tuckova</li>
                         </ul>
+                        <br>
                     </details>
         </details>
-        <br>
-        <p style="font-size: smaller;"><i>Updated January 2026. Concept inspired by Julia Evans' <a href="https://jvns.ca/blog/brag-documents/">brag documents.</a> Textual aesthetic inspired by <a href="https://anthonyhobday.com">Anthony Hobday</a> and <a href="https://justinjackson.ca/words.html">Justin Jackson</a>. The type used is <a href="https://departuremono.com">Departure Mono</a>. Colours via <a href="https://www.iamsajid.com/colors/">Sajid's calculator</a>. The motion animation shows <a href="https://en.wikipedia.org/wiki/Three-body_problem">three bodies</a> in a <a href="https://en.wikipedia.org/wiki/Van_der_Pol_oscillator">Van der Pol oscillation</a> with <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a> frequencies.</i></p>
+</section>
+
+<section id="colophon" class="tab-content">
+  <p>Design and influences.</p>
+    <ul>
+      <li>Updated February 2026</li>
+      <li>Inspired by Julia Evans' <a href="https://jvns.ca/blog/brag-documents/">brag docs</a></li>
+      <li>Textual aesthetic inspired by <a href="https://anthonyhobday.com">Anthony Hobday</a> and <a href="https://justinjackson.ca/words.html">Justin Jackson</a></li>
+      <li>Textual constraints inspired by <a href="https://practicaltypography.com/summary-of-key-rules.html">Butterick's Practical Typography</a></li>
+      <li>Animation: <a href="https://en.wikipedia.org/wiki/Three-body_problem">three bodies</a> + <a href="https://en.wikipedia.org/wiki/Van_der_Pol_oscillator">Van der Pol oscillation</a> + <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a></li>
+        </ul>
+    </ul>
+</section>
+
+<footer>Stillness is death.</footer>
+
+<script>
+(function() {
+  const tabs = document.querySelector('.tabs');
+  const tabButtons = document.querySelectorAll('.tab');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  function switchTab(tabId) {
+    tabButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tabId));
+    tabContents.forEach(content => content.classList.toggle('active', content.id === tabId));
+  }
+
+  tabs.addEventListener('click', e => {
+    if (e.target.classList.contains('tab')) {
+      const tabId = e.target.dataset.tab;
+      switchTab(tabId);
+      history.replaceState(null, '', '#' + tabId);
+    }
+  });
+
+  const hash = location.hash.slice(1);
+  if (hash && document.getElementById(hash)?.classList.contains('tab-content')) {
+    switchTab(hash);
+  }
+})();
+</script>
 </body>
 
 </html>
