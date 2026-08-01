@@ -106,7 +106,7 @@ hr {
    The note itself. The slug is the note's only name and it already sits in the
    title bar and the URL, so it is deliberately not repeated on the page. */
 main {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 main > :first-child {
@@ -158,9 +158,19 @@ nav.adjacent a[rel="next"] {
 
 /* STREAM
 
-   The notes index: every note in full, newest first. */
+   The notes index: every note in full, newest first. It carries no heading —
+   the page title and the URL already say what it is — so the first note needs
+   room of its own to not read as a continuation of the back link. */
+article:first-of-type {
+  margin-top: 3rem;
+}
+
 article + article {
   border-top: 1px solid #ddd;
   margin-top: 1.5em;
   padding-top: 1.5em;
+}
+
+article > :first-child {
+  margin-top: 0;
 }
