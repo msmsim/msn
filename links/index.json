@@ -1,13 +1,1 @@
-[
-  {
-    "id": "curl-1",
-    "sentAt": "2026-08-05T20:40:49.741Z",
-    "receivedAt": "2026-08-05T20:40:49.747Z",
-    "from": "",
-    "url": "https://example.com",
-    "title": "Test",
-    "note": "hello",
-    "publicNotes": [],
-    "excerpts": []
-  }
-]
+[]
