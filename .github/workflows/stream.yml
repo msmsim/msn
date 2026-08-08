@@ -1,0 +1,49 @@
+name: Build notes stream
+
+# The stream index and the prev/next links are derived from the note pages in
+# notes/, so any publisher — motes, Subset's HTTP peer receiver, a hand-edited
+# file — only has to drop its own page and this rebuilds the rest.
+#
+# Pushes made with GITHUB_TOKEN do not trigger workflows, so this cannot loop on
+# its own commit; the index.html exclusion below is belt and braces.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "notes/**.html"
+      - "!notes/index.html"
+      - "tools/build-stream.mjs"
+  workflow_dispatch:
+
+concurrency:
+  # Two notes published close together would otherwise race on the same file.
+  group: build-stream
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: node tools/build-stream.mjs
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add notes
+          git commit -m "stream: rebuild index and adjacent links"
+          git push
