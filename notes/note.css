@@ -141,6 +141,30 @@ nav.back {
   background: #e6f0ff;
 }
 
+/* SOURCE
+
+   Where a note is about something published elsewhere, the link to it sits with
+   the datestamp rather than in the prose, so a note that came in as a share
+   reads like every other note until the footer. Solid underline against the
+   stamp's dotted one, and the arrow, so the two right-aligned lines don't read
+   as one field. */
+p.source {
+  margin: 1.25em 0 0;
+  text-align: right;
+  font-size: 0.85em;
+}
+
+p.source a {
+  color: #555;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+p.source a:hover {
+  color: #0066cc;
+  background: #e6f0ff;
+}
+
 /* OLDER / NEWER
 
    Either may be absent at the ends of the stream, so the newer link is pushed
