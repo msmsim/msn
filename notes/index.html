@@ -22,6 +22,12 @@
 <body>
 <nav class="back"><a href="/" target="_self">← msweet.net</a></nav>
 <article>
+<p>A large part of life is about “adding miles” when one gets the opportunity.</p>
+<blockquote><p>The next day I opened the route again, this time looking for places worth adding rather than removing. I started scrolling around the map east of the coast, zooming in and out over this huge forested interior I had mostly ignored during my original planning. I found big lakes tucked between mountain ranges, long roads climbing through national parks, even famous onsens scattered through volcanic areas and far from any city. I kept clicking around and finding places that looked too good to pass this close to without seeing. Adding three or four days would take me off the flat coastline and back into the kind of terrain that had drawn me so strongly to the Alps. Just a few days earlier I had been searching for ways to shave a week off the trip. Now I was adding miles.</p></blockquote>
+<p class="source"><a href="https://jhallard.substack.com/p/honshu-by-bicycle?r=233ko">Honshu, By Bicycle - by John Allard - Nascent Labyrinths ↗</a></p>
+<p class="stamp"><a href="/notes/770-maroon-crows" target="_self"><time datetime="2026-08-27T06:47:17.718Z">27 Aug 2026, 07:47</time></a></p>
+</article>
+<article>
 <p>“Correct when degraded; fast when healthy” is a really neat design principle. Plus, Git and S3 are modern wonders.</p>
 <blockquote><p>What about consensus? Elections? Which server is the primary for a given repository? It also doesn't matter! There's no state and no consensus here. Any server can be the primary. All updates to the write-ahead log are synchronized with an atomic compare-and-swap (CAS) operation on S3, so it's always safe for any instance of a repository to receive a push. Again, just like with routing, letting an arbitrary server act as the primary isn't the most efficient thing (it leads to CAS retries, which can delay pushes), so in practice we always choose the same server as the primary, the first one in the ranked list from rendezvous hashing. But in the corner cases — when there's a deploy, a failover, a network blip — we just don't care exactly which server is the primary. The system is designed to always be correct when degraded, and always fast when healthy.</p></blockquote>
 <p class="source"><a href="https://cursor.com/blog/git-at-any-scale">Git at any scale · Cursor ↗</a></p>
