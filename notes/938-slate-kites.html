@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
+    <title>938-slate-kites | Matthew McDowell-Sweet</title>
+    <meta name="description" content="Git at any scale · Cursor">
+    <link rel="icon" href="/msn-fav.png" type="image/png" alt="msweet.net's logo">
+    <meta property="og:title" content="938-slate-kites">
+    <meta property="og:description" content="Git at any scale · Cursor">
+    <meta property="og:image" content="https://www.msweet.net/msn-ogi.png">
+    <meta property="og:url" content="https://msweet.net/notes/938-slate-kites">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="msweet.net">
+    <meta property="article:published_time" content="2026-08-27T06:38:34.285Z">
+    <link rel="canonical" href="https://msweet.net/notes/938-slate-kites">
+    <link rel="stylesheet" href="/notes/note.css">
+    <script defer data-goatcounter="https://msweet.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<nav class="back"><a href="/notes/" target="_self">← Notes</a></nav>
+<main>
+<p>“Correct when degraded; fast when healthy” is a really neat design principle. Plus, Git and S3 are modern wonders.</p>
+<blockquote><p>What about consensus? Elections? Which server is the primary for a given repository? It also doesn't matter! There's no state and no consensus here. Any server can be the primary. All updates to the write-ahead log are synchronized with an atomic compare-and-swap (CAS) operation on S3, so it's always safe for any instance of a repository to receive a push. Again, just like with routing, letting an arbitrary server act as the primary isn't the most efficient thing (it leads to CAS retries, which can delay pushes), so in practice we always choose the same server as the primary, the first one in the ranked list from rendezvous hashing. But in the corner cases — when there's a deploy, a failover, a network blip — we just don't care exactly which server is the primary. The system is designed to always be correct when degraded, and always fast when healthy.</p></blockquote>
+<p class="source"><a href="https://cursor.com/blog/git-at-any-scale">Git at any scale · Cursor ↗</a></p>
+</main>
+<p class="stamp"><a href="/notes/938-slate-kites" target="_self"><time datetime="2026-08-27T06:38:34.285Z">27 Aug 2026, 07:38</time></a></p>
+<nav class="adjacent">
+
+
+</nav>
+</body>
+</html>
