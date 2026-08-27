@@ -22,6 +22,12 @@
 <body>
 <nav class="back"><a href="/" target="_self">← msweet.net</a></nav>
 <article>
+<p>“Correct when degraded; fast when healthy” is a really neat design principle. Plus, Git and S3 are modern wonders.</p>
+<blockquote><p>What about consensus? Elections? Which server is the primary for a given repository? It also doesn't matter! There's no state and no consensus here. Any server can be the primary. All updates to the write-ahead log are synchronized with an atomic compare-and-swap (CAS) operation on S3, so it's always safe for any instance of a repository to receive a push. Again, just like with routing, letting an arbitrary server act as the primary isn't the most efficient thing (it leads to CAS retries, which can delay pushes), so in practice we always choose the same server as the primary, the first one in the ranked list from rendezvous hashing. But in the corner cases — when there's a deploy, a failover, a network blip — we just don't care exactly which server is the primary. The system is designed to always be correct when degraded, and always fast when healthy.</p></blockquote>
+<p class="source"><a href="https://cursor.com/blog/git-at-any-scale">Git at any scale · Cursor ↗</a></p>
+<p class="stamp"><a href="/notes/938-slate-kites" target="_self"><time datetime="2026-08-27T06:38:34.285Z">27 Aug 2026, 07:38</time></a></p>
+</article>
+<article>
 <p>Here’s to energy abundance.</p>
 <p class="source"><a href="https://rationaloptimistsociety.substack.com/p/the-rockefeller-of-solar?r=233ko">The Rockefeller of solar - by Stephen McBride ↗</a></p>
 <p class="stamp"><a href="/notes/660-maroon-cranes" target="_self"><time datetime="2026-08-25T20:02:43.154Z">25 Aug 2026, 21:02</time></a></p>
