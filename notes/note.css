@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: #1a1a1a;
@@ -44,12 +44,13 @@ p {
 
 /* LINKS */
 a {
-  color: #0066cc;
+  color: #555;
   text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 a:hover {
-  color: #0052a3;
+  color: #0066cc;
   background: #e6f0ff;
 }
 

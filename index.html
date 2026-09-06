@@ -25,7 +25,7 @@
         }
 
         body {
-          font-size: 14px;
+          font-size: 16px;
           line-height: 1.5;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
           color: #1a1a1a;
@@ -43,7 +43,7 @@
           font-weight: 500;
         }
 
-        h1 { font-size: 1.5em; }
+        h1 { font-size: 1.4rem; }
         h2 { font-size: 1.35em; }
         h3 { font-size: 1.15em; }
         h4 { font-size: 1.05em; }
@@ -56,12 +56,13 @@
 
         /* LINKS */
         a {
-          color: #0066cc;
+          color: #555;
           text-decoration: underline;
+          text-underline-offset: 0.2em;
         }
 
         a:hover {
-          color: #0052a3;
+          color: #0066cc;
           background: #e6f0ff;
         }
 
@@ -218,7 +219,6 @@
         .tab {
           background: none;
           border: none;
-          border-bottom: 2px solid transparent;
           padding: 0.5rem 0.5rem 0.5rem 0;
           cursor: pointer;
           font-size: inherit;
@@ -230,10 +230,11 @@
         }
 
         .tab.active {
-          color: #0066cc;
-          border-bottom: 2px solid #0066cc;
+          color: #1a1a1a;
           font-size: inherit;
-          font-weight: inherit;
+          font-weight: 600;
+          text-decoration: underline;
+          text-underline-offset: 0.2em;
         }
 
         a.tab {
@@ -267,10 +268,10 @@
 <nav class="tabs">
   <button class="tab active" data-tab="about">About</button>
   <button class="tab" data-tab="now">Now</button>
-  <button class="tab" data-tab="previously">Prev</button>
+  <button class="tab" data-tab="previously">Past</button>
   <button class="tab" data-tab="reads">Reads</button>
   <button class="tab" data-tab="moves">Moves</button>
-  <button class="tab" data-tab="colophon">Colophon</button>
+  <button class="tab" data-tab="colophon">Meta</button>
   <a class="tab" href="/notes/" target="_self">Notes ↗</a>
 </nav>
 
@@ -288,6 +289,7 @@
     <ul>
         <li>Product managing (public sector; <a href="https://www.metoffice.gov.uk/services/transport">transport ops x weather</a>)</li>
         <li>Building <a href="https://subset.network">Subset</a>, the private sharing network</li>
+        <li>Researching <a href="https://kinocomputing.com/about">kinocomputing</a>, alt. computing and intelligence paradigms</li>
         <li>Practicing <a href="https://swellandcut.com/attending-to-grace/">Brazilian jiu-jitsu</a> and <a href="https://swellandcut.com/ageing-wild/">ageing wild</a></li>
     </ul>
 </section>
@@ -741,12 +743,11 @@
 <section id="colophon" class="tab-content">
   <p>Design and influences.</p>
     <ul>
-      <li>Updated July 2026</li>
+      <li>Updated September 2026</li>
       <li>Inspired by Julia Evans' <a href="https://jvns.ca/blog/brag-documents/">brag docs</a></li>
       <li>Textual aesthetic inspired by <a href="https://anthonyhobday.com">Anthony Hobday</a> and <a href="https://justinjackson.ca/words.html">Justin Jackson</a></li>
       <li>Textual constraints inspired by <a href="https://practicaltypography.com/summary-of-key-rules.html">Butterick's Practical Typography</a></li>
       <li>Animation: <a href="https://en.wikipedia.org/wiki/Three-body_problem">three bodies</a> + <a href="https://en.wikipedia.org/wiki/Van_der_Pol_oscillator">Van der Pol oscillation</a> + <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a></li>
-        </ul>
     </ul>
 </section>
 
