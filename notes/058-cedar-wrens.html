@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
+    <title>058-cedar-wrens | Matthew McDowell-Sweet</title>
+    <meta name="description" content="With the resource required to create arbitrary software going to zero, we might see new types of…">
+    <link rel="icon" href="/msn-fav.png" type="image/png" alt="msweet.net's logo">
+    <meta property="og:title" content="058-cedar-wrens">
+    <meta property="og:description" content="With the resource required to create arbitrary software going to zero, we might see new types of…">
+    <meta property="og:image" content="https://www.msweet.net/msn-ogi.png">
+    <meta property="og:url" content="https://msweet.net/notes/058-cedar-wrens">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="msweet.net">
+    <meta property="article:published_time" content="2026-09-12T16:04:12+01:00">
+    <link rel="canonical" href="https://msweet.net/notes/058-cedar-wrens">
+    <link rel="stylesheet" href="/notes/note.css">
+    <script defer data-goatcounter="https://msweet.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<nav class="back"><a href="/notes/" target="_self">← Notes</a></nav>
+<main>
+<p>With the resource required to create arbitrary software going to zero, we might see new types of <a href="https://open.substack.com/pub/summerlightning/p/carnival-time-hardness-and-the-machines">carnivalesque</a> or competitive software games emerge.</p>
+<p>Chess is an instructive analogy here. Consider different factors of the base game and how turning the respective dials yields divergent types of play.</p>
+<ul>
+<li><strong>Time constraints</strong>: how long each side gets to move. E.g. bullet chess (1-minute games)</li>
+<li><strong>Team dynamics</strong>: how many people per side or per board. E.g. bughouse (2v2, captured pieces pass to partner)</li>
+<li><strong>Board conditions</strong>: shape, size, or piece density of the board. E.g. hexagonal chess or Horde (crowded pawn mass)</li>
+<li><strong>Win conditions</strong>: what counts as victory besides checkmate. E.g. King of the Hill (reach the center)</li>
+<li><strong>Information constraints</strong>: what you can and can’t see of the game state. E.g. Kriegspiel (opponent’s pieces hidden)</li>
+<li><strong>Starting conditions</strong>: how the initial setup is arranged. E.g. Chess960 (shuffled back rank)</li>
+<li><strong>Piece economy</strong>: what happens to captured pieces. E.g. Crazyhouse (captures return to play as your own)</li>
+<li><strong>Simultaneity</strong>: how many games one participant plays at once. E.g. simultaneous exhibition (one player vs. many boards)</li>
+</ul>
+<p>If one takes building software as a now trivial game then the question becomes, “What’s <a href="https://contraptions.venkateshrao.com/p/the-curiously-playable-universe">the new meta game</a> we’ll replace it with?”</p>
+<p>This isn’t the same as a hackathon, where resources are pooled and used in a short, intense burst to bust through <a href="https://henrikkarlsson.xyz/p/hacker-mindset">the sociotechnical walls</a> of a system. It’s also not the same as creating software to serve a user need, sustain a business, or capture value from a market. It’s more like <a href="https://en.wikipedia.org/wiki/Code_golf">code golf</a> or recreational math.</p>
+<p>The factors available to create these new games are more numerous than chess, though. It could even take the form of something like the software Olympics. Within the conventional Olympics, the exhibit is the capacity of the human body to perform at the extremes of certain attributes. For example:</p>
+<ul>
+<li><strong>Speed/power</strong>: sprints, swimming, speed skating, weightlifting, track cycling; pure output, no opponent interaction needed.</li>
+<li><strong>Endurance</strong>: marathon, long-distance swimming/cycling, cross-country skiing, triathlon; same idea, longer time constant.</li>
+<li><strong>Precision/accuracy</strong>: archery, shooting, diving, gymnastics (apparatus), figure skating; judged against a fixed target or ideal form rather than an opponent.</li>
+<li><strong>Direct combat</strong>: boxing, wrestling, fencing, judo, taekwondo; win by directly disabling or outscoring an opponent in real time.</li>
+<li><strong>Territorial/tactical team games</strong>: soccer, basketball, handball, water polo, rugby; shared board, ball as contested resource, win by score differential.</li>
+<li><strong>Net/asynchronous combat</strong>: tennis, volleyball, badminton, table tennis; opponents don’t touch, but alternate control of a shared object.</li>
+<li><strong>Combined/multi-discipline</strong>: decathlon, heptathlon, modern pentathlon, triathlon; aggregate score across otherwise-separate events, testing generalism.</li>
+<li><strong>Aesthetic/subjectively judged</strong>: gymnastics (floor), diving (form), figure skating, artistic swimming; score is a judge’s read on execution and composition, not a stopwatch.</li>
+<li><strong>Equipment/vehicle-mediated</strong>: rowing, canoeing, cycling (road), equestrian, sailing; performance gated by mastery of a device or animal, not just the body.</li>
+<li><strong>Strength/max-output</strong>: weightlifting, shot put, discus, hammer throw; single maximal effort, no endurance or opponent component.</li>
+</ul>
+<p>A software Olympics could exhibit a similarly dizzying array of human capacity to wield digital machine logic. If we map the above attributes onto something more software-y, we get:</p>
+<ul>
+<li><strong>Speed/power → raw generation velocity</strong>: solve N well-specified problems in a fixed short window, no opponent. Capacity exhibited: latency between intent and working code.</li>
+<li><strong>Endurance → sustained correctness over time</strong>: capacity exhibited isn’t speed but not degrading; architecture and judgment holding up over hours without the codebase rotting.</li>
+<li><strong>Precision/accuracy → economy of exact expression</strong>: hit a fixed target with minimum waste, judged against an ideal, not a rival.</li>
+<li><strong>Direct combat → adversarial reasoning on contested state</strong>: real-time, one side’s move directly disables the other’s.</li>
+<li><strong>Territorial/tactical team → coordination under resource contention</strong>: shared board, contested resource (compute budget, rate limits, shared modules), win by throughput or uptime differential.</li>
+<li><strong>Net/asynchronous → interface discipline without direct contact</strong>: opponents never touch code, only alternately stress each other’s contracts.</li>
+<li><strong>Combined/multi-discipline → generalism vs. specialism</strong>: aggregate score across sprint, golf, debugging-under-time-pressure, and from-scratch build.</li>
+<li><strong>Aesthetic/subjective → taste as a judged output</strong>: score isn’t pass/fail but a panel’s read on elegance, restraint, surprise.</li>
+<li><strong>Equipment/vehicle-mediated → mastery of a specific gated instrument</strong>: performance capped by fluency with a constrained tool, not general ability.</li>
+<li><strong>Strength/max-output → peak ceiling, single maximal effort</strong>: no endurance or opponent, just “how much can be generated correctly in one shot.”</li>
+</ul>
+<p>Such an exhibit might conceivably be a better benchmark for agentic technologies and released intelligences.</p>
+<p>Most benchmarks compress down to pass/fail on a fixed set of tasks. These get quickly gamed because the economic pressure atop the final scoring is so high. Or they go in the other direction and seek an untouchable level of generality, such as the <a href="https://arcprize.org/arc-agi">ARC-AGI benchmarks</a>.</p>
+<p>A software Olympics, however, profiles across axes—speed, judgment under pressure, taste, endurance—in a way closer to a decathlon score than a single test result, testing distinct, competing attributes of an underlying participant in structured, sustainable ways.</p>
+<p>It may also turn out to be a better orientation for the world now unfolding. The old world measured software by whether it shipped or captured a market, and assumed building was the bottleneck. But once building is free, the frontier is determined by who wields unlimited production well.</p>
+<p>The software Olympics could be more entertaining, more informative, and more useful than what we have now. Instead of dubious benchmarks, marketing hype and alignment incidents, we could have a recurring spectacle that showcases what these systems (and we in turn) can do.</p>
+</main>
+<p class="stamp"><a href="/notes/058-cedar-wrens" target="_self"><time datetime="2026-09-12T16:04:12+01:00">12 Sep 2026, 16:04</time></a></p>
+<nav class="adjacent">
+
+
+</nav>
+</body>
+</html>
